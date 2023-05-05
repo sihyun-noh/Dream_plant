@@ -1,0 +1,6 @@
+#ifndef _VERSION_CONFIG_H_
+#define _VERSION_CONFIG_H_
+
+#define FW_VERSION "GAS_SENSOR_1.0.0-33b8ad-DVT"
+
+#endif // _VERSION_CONFIG_H_

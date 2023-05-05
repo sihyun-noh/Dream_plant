@@ -1,0 +1,1561 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTION_LIST	mklittlefs/main.cpp	/^enum Action { ACTION_NONE, ACTION_PACK, ACTION_UNPACK, ACTION_LIST };$/;"	e	enum:Action	file:
+ACTION_NONE	mklittlefs/main.cpp	/^enum Action { ACTION_NONE, ACTION_PACK, ACTION_UNPACK, ACTION_LIST };$/;"	e	enum:Action	file:
+ACTION_PACK	mklittlefs/main.cpp	/^enum Action { ACTION_NONE, ACTION_PACK, ACTION_UNPACK, ACTION_LIST };$/;"	e	enum:Action	file:
+ACTION_UNPACK	mklittlefs/main.cpp	/^enum Action { ACTION_NONE, ACTION_PACK, ACTION_UNPACK, ACTION_LIST };$/;"	e	enum:Action	file:
+AR	src/littlefs/Makefile	/^AR      ?= ar$/;"	m
+ARCHIVE	mklittlefs/Makefile	/^	ARCHIVE ?= tar$/;"	m
+ARCHIVE	mklittlefs/Makefile	/^	ARCHIVE ?= zip$/;"	m
+ARCHIVE_CMD	mklittlefs/Makefile	/^	ARCHIVE_CMD := tar czf$/;"	m
+ARCHIVE_CMD	mklittlefs/Makefile	/^	ARCHIVE_CMD := zip -r$/;"	m
+ARCHIVE_EXTENSION	mklittlefs/Makefile	/^	ARCHIVE_EXTENSION := tar.gz$/;"	m
+ARCHIVE_EXTENSION	mklittlefs/Makefile	/^	ARCHIVE_EXTENSION := zip$/;"	m
+ASM	src/littlefs/Makefile	/^ASM := $(SRC:%.c=$(BUILDDIR)%.s)$/;"	m
+ASSERT	src/littlefs/scripts/explode_asserts.py	/^ASSERT = "__{PREFIX}_ASSERT_{TYPE}_{COMP}"$/;"	v
+Action	mklittlefs/main.cpp	/^enum Action { ACTION_NONE, ACTION_PACK, ACTION_UNPACK, ACTION_LIST };$/;"	g	file:
+Arg	mklittlefs/tclap/Arg.h	/^class Arg$/;"	c	namespace:TCLAP
+Arg	mklittlefs/tclap/Arg.h	/^inline Arg::Arg(const std::string& flag,$/;"	f	class:TCLAP::Arg
+ArgException	mklittlefs/tclap/ArgException.h	/^		ArgException( const std::string& text = "undefined exception", $/;"	f	class:TCLAP::ArgException
+ArgException	mklittlefs/tclap/ArgException.h	/^class ArgException : public std::exception$/;"	c	namespace:TCLAP
+ArgListIterator	mklittlefs/tclap/Arg.h	/^typedef std::list<Arg*>::iterator ArgListIterator;$/;"	t	namespace:TCLAP
+ArgParseException	mklittlefs/tclap/ArgException.h	/^		ArgParseException( const std::string& text = "undefined exception", $/;"	f	class:TCLAP::ArgParseException
+ArgParseException	mklittlefs/tclap/ArgException.h	/^class ArgParseException : public ArgException$/;"	c	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/ArgTraits.h	/^struct ArgTraits {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<bool> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<char> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<double> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<float> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<int> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<long long> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<long> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<short> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<size_t> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<std::string> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<unsigned char> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<unsigned int> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<unsigned long long> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<unsigned long> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<unsigned short> {$/;"	s	namespace:TCLAP
+ArgTraits	mklittlefs/tclap/StandardTraits.h	/^struct ArgTraits<wchar_t> {$/;"	s	namespace:TCLAP
+ArgVectorIterator	mklittlefs/tclap/Arg.h	/^typedef std::vector<Arg*>::iterator ArgVectorIterator;$/;"	t	namespace:TCLAP
+BUILD_CONFIG_NAME	mklittlefs/Makefile	/^BUILD_CONFIG_NAME ?= -generic$/;"	m
+BUILD_CONFIG_STR	mklittlefs/Makefile	/^BUILD_CONFIG_STR := $(shell echo $(CPPFLAGS) | sed 's- -\\\\\\\\x20-g')$/;"	m
+CC	src/littlefs/Makefile	/^CC      ?= gcc$/;"	m
+CGI	src/littlefs/Makefile	/^CGI := $(SRC:%.c=$(BUILDDIR)%.ci)$/;"	m
+CI_PATHS	src/littlefs/scripts/stack.py	/^CI_PATHS = ['*.ci']$/;"	v
+COMP	src/littlefs/scripts/explode_asserts.py	/^COMP = {$/;"	v
+COMPONENT_ADD_INCLUDEDIRS	component.mk	/^COMPONENT_ADD_INCLUDEDIRS := include$/;"	m
+COMPONENT_ADD_LDFLAGS	test/component.mk	/^COMPONENT_ADD_LDFLAGS = -Wl,--whole-archive -l$(COMPONENT_NAME) -Wl,--no-whole-archive$/;"	m
+COMPONENT_PRIV_INCLUDEDIRS	component.mk	/^COMPONENT_PRIV_INCLUDEDIRS := src$/;"	m
+COMPONENT_SRCDIRS	component.mk	/^COMPONENT_SRCDIRS := src src\/littlefs$/;"	m
+COMPONENT_SUBMODULES	component.mk	/^COMPONENT_SUBMODULES := src\/littlefs$/;"	m
+CONCURRENT_TASK_ACTION_READ	test/test_littlefs.c	/^    CONCURRENT_TASK_ACTION_READ,$/;"	e	enum:__anon1	file:
+CONCURRENT_TASK_ACTION_STAT	test/test_littlefs.c	/^    CONCURRENT_TASK_ACTION_STAT,$/;"	e	enum:__anon1	file:
+CONCURRENT_TASK_ACTION_WRITE	test/test_littlefs.c	/^    CONCURRENT_TASK_ACTION_WRITE,$/;"	e	enum:__anon1	file:
+CONFIG_LITTLEFS_BLOCK_SIZE	src/esp_littlefs.c	/^#define CONFIG_LITTLEFS_BLOCK_SIZE /;"	d	file:
+CONFIG_LITTLEFS_FD_CACHE_HYST	src/esp_littlefs.c	/^#define CONFIG_LITTLEFS_FD_CACHE_HYST /;"	d	file:
+CONFIG_LITTLEFS_FD_CACHE_MIN_SIZE	src/esp_littlefs.c	/^#define CONFIG_LITTLEFS_FD_CACHE_MIN_SIZE /;"	d	file:
+CONFIG_LITTLEFS_FD_CACHE_REALLOC_FACTOR	src/esp_littlefs.c	/^#define CONFIG_LITTLEFS_FD_CACHE_REALLOC_FACTOR /;"	d	file:
+CTAGS	src/littlefs/Makefile	/^CTAGS   ?= ctags$/;"	m
+ClearContainer	mklittlefs/tclap/CmdLine.h	/^template<typename C> void ClearContainer(C &c)$/;"	f	namespace:TCLAP
+CmdLine	mklittlefs/tclap/CmdLine.h	/^class CmdLine : public CmdLineInterface$/;"	c	namespace:TCLAP
+CmdLine	mklittlefs/tclap/CmdLine.h	/^inline CmdLine::CmdLine(const std::string& m,$/;"	f	class:TCLAP::CmdLine
+CmdLineInterface	mklittlefs/tclap/CmdLineInterface.h	/^class CmdLineInterface$/;"	c	namespace:TCLAP
+CmdLineOutput	mklittlefs/tclap/CmdLineOutput.h	/^class CmdLineOutput $/;"	c	namespace:TCLAP
+CmdLineParseException	mklittlefs/tclap/ArgException.h	/^		CmdLineParseException( const std::string& text = "undefined exception", $/;"	f	class:TCLAP::CmdLineParseException
+CmdLineParseException	mklittlefs/tclap/ArgException.h	/^class CmdLineParseException : public ArgException$/;"	c	namespace:TCLAP
+Constraint	mklittlefs/tclap/Constraint.h	/^class Constraint$/;"	c	namespace:TCLAP
+DEFAULT_PREFIX	src/littlefs/scripts/prefix.py	/^DEFAULT_PREFIX = "lfs"$/;"	v
+DEFINES	src/littlefs/scripts/test.py	/^DEFINES = {$/;"	v
+DEP	src/littlefs/Makefile	/^DEP := $(SRC:%.c=$(BUILDDIR)%.d)$/;"	m
+DFLAGS	mklittlefs/Makefile	/^override LDFLAGS := $(TARGET_LDFLAGS) $(LDFLAGS)$/;"	m
+DIFF_FILES	mklittlefs/Makefile	/^DIFF_FILES := $(addsuffix .diff,$(FILES_TO_FORMAT))$/;"	m
+DIST_ARCHIVE	mklittlefs/Makefile	/^DIST_ARCHIVE := $(DIST_NAME).$(ARCHIVE_EXTENSION)$/;"	m
+DIST_DIR	mklittlefs/Makefile	/^DIST_DIR := $(DIST_NAME)$/;"	m
+DIST_NAME	mklittlefs/Makefile	/^DIST_NAME := mklittlefs-$(VERSION)$(BUILD_CONFIG_NAME)-$(TARGET_OS)$/;"	m
+DelPtr	mklittlefs/tclap/CmdLine.h	/^template<typename T> void DelPtr(T ptr)$/;"	f	namespace:TCLAP
+DocBookOutput	mklittlefs/tclap/DocBookOutput.h	/^class DocBookOutput : public CmdLineOutput$/;"	c	namespace:TCLAP
+ESP_LITTLEFS_API_H__	src/littlefs_api.h	/^#define ESP_LITTLEFS_API_H__$/;"	d
+ESP_LITTLEFS_H__	include/esp_littlefs.h	/^#define ESP_LITTLEFS_H__$/;"	d
+ESP_LITTLEFS_VERSION_MAJOR	include/esp_littlefs.h	/^#define ESP_LITTLEFS_VERSION_MAJOR /;"	d
+ESP_LITTLEFS_VERSION_MINOR	include/esp_littlefs.h	/^#define ESP_LITTLEFS_VERSION_MINOR /;"	d
+ESP_LITTLEFS_VERSION_NUMBER	include/esp_littlefs.h	/^#define ESP_LITTLEFS_VERSION_NUMBER /;"	d
+ESP_LITTLEFS_VERSION_PATCH	include/esp_littlefs.h	/^#define ESP_LITTLEFS_VERSION_PATCH /;"	d
+EXTRA_COMPONENT_DIRS	Makefile	/^EXTRA_COMPONENT_DIRS := \\$/;"	m
+EXTRA_COMPONENT_DIRS	example/Makefile	/^EXTRA_COMPONENT_DIRS := $(realpath ..)$/;"	m
+ExitException	mklittlefs/tclap/ArgException.h	/^	ExitException(int estat) : _estat(estat) {}$/;"	f	class:TCLAP::ExitException
+ExitException	mklittlefs/tclap/ArgException.h	/^class ExitException {$/;"	c	namespace:TCLAP
+ExtractValue	mklittlefs/tclap/Arg.h	/^ExtractValue(T &destVal, const std::string& strVal, StringLike sl)$/;"	f	namespace:TCLAP
+ExtractValue	mklittlefs/tclap/Arg.h	/^ExtractValue(T &destVal, const std::string& strVal, ValueLike vl)$/;"	f	namespace:TCLAP
+FAIL	src/littlefs/scripts/test.py	/^FAIL = '\\033[31m✗\\033[0m'$/;"	v
+FIELDS	src/littlefs/scripts/summary.py	/^FIELDS = [$/;"	v
+FILES_TO_FORMAT	mklittlefs/Makefile	/^FILES_TO_FORMAT := $(shell find . -not -path '.\/littlefs\/*' \\( -name '*.c' -o -name '*.cpp' \\))$/;"	m
+FLAGS	mklittlefs/Makefile	/^override CFLAGS := -std=gnu99 -Os -Wall $(TARGET_CFLAGS) $(CFLAGS)$/;"	m
+Field	src/littlefs/scripts/summary.py	/^Field = co.namedtuple('Field', 'name,parse,acc,key,fmt,repr,null,ratio')$/;"	v
+HAVE_SSTREAM	mklittlefs/tclap/Arg.h	/^#define HAVE_SSTREAM$/;"	d
+HAVE_SSTREAM	mklittlefs/tclap/ValuesConstraint.h	/^#define HAVE_SSTREAM$/;"	d
+HelpVisitor	mklittlefs/tclap/HelpVisitor.h	/^		HelpVisitor(CmdLineInterface* cmd, CmdLineOutput** out) $/;"	f	class:TCLAP::HelpVisitor
+HelpVisitor	mklittlefs/tclap/HelpVisitor.h	/^class HelpVisitor: public Visitor$/;"	c	namespace:TCLAP
+INCLUDES	mklittlefs/Makefile	/^INCLUDES := -Itclap -Iinclude -Ilittlefs -I. -I ..\/src$/;"	m
+INFO_PATHS	src/littlefs/scripts/coverage.py	/^INFO_PATHS = ['tests\/*.toml.info']$/;"	v
+IgnoreRestVisitor	mklittlefs/tclap/IgnoreRestVisitor.h	/^		IgnoreRestVisitor() : Visitor() {}$/;"	f	class:TCLAP::IgnoreRestVisitor
+IgnoreRestVisitor	mklittlefs/tclap/IgnoreRestVisitor.h	/^class IgnoreRestVisitor: public Visitor$/;"	c	namespace:TCLAP
+LCOV	src/littlefs/Makefile	/^LCOV    ?= lcov$/;"	m
+LEX	src/littlefs/scripts/explode_asserts.py	/^LEX = {$/;"	v
+LFS1_DISK_VERSION	src/littlefs/lfs.c	/^#define LFS1_DISK_VERSION /;"	d	file:
+LFS1_DISK_VERSION_MAJOR	src/littlefs/lfs.c	/^#define LFS1_DISK_VERSION_MAJOR /;"	d	file:
+LFS1_DISK_VERSION_MINOR	src/littlefs/lfs.c	/^#define LFS1_DISK_VERSION_MINOR /;"	d	file:
+LFS1_TYPE_DIR	src/littlefs/lfs.c	/^    LFS1_TYPE_DIR        = 0x22,$/;"	e	enum:lfs1_type	file:
+LFS1_TYPE_REG	src/littlefs/lfs.c	/^    LFS1_TYPE_REG        = 0x11,$/;"	e	enum:lfs1_type	file:
+LFS1_TYPE_SUPERBLOCK	src/littlefs/lfs.c	/^    LFS1_TYPE_SUPERBLOCK = 0x2e,$/;"	e	enum:lfs1_type	file:
+LFS1_VERSION	src/littlefs/lfs.c	/^#define LFS1_VERSION /;"	d	file:
+LFS1_VERSION_MAJOR	src/littlefs/lfs.c	/^#define LFS1_VERSION_MAJOR /;"	d	file:
+LFS1_VERSION_MINOR	src/littlefs/lfs.c	/^#define LFS1_VERSION_MINOR /;"	d	file:
+LFS_ASSERT	src/lfs_config.h	/^#define LFS_ASSERT(/;"	d
+LFS_ASSERT	src/littlefs/lfs_util.h	/^#define LFS_ASSERT(/;"	d
+LFS_ATTR_MAX	src/littlefs/lfs.h	/^#define LFS_ATTR_MAX /;"	d
+LFS_BLOCK_INLINE	src/littlefs/lfs.c	/^#define LFS_BLOCK_INLINE /;"	d	file:
+LFS_BLOCK_NULL	src/littlefs/lfs.c	/^#define LFS_BLOCK_NULL /;"	d	file:
+LFS_CFG_H	src/lfs_config.h	/^#define LFS_CFG_H$/;"	d
+LFS_CMP_EQ	src/littlefs/lfs.c	/^    LFS_CMP_EQ = 0,$/;"	e	enum:__anon6	file:
+LFS_CMP_GT	src/littlefs/lfs.c	/^    LFS_CMP_GT = 2,$/;"	e	enum:__anon6	file:
+LFS_CMP_LT	src/littlefs/lfs.c	/^    LFS_CMP_LT = 1,$/;"	e	enum:__anon6	file:
+LFS_DEBUG	src/lfs_config.h	/^#define LFS_DEBUG(/;"	d
+LFS_DEBUG	src/littlefs/lfs_util.h	/^#define LFS_DEBUG(/;"	d
+LFS_DEBUG_	src/lfs_config.h	/^#define LFS_DEBUG_(/;"	d
+LFS_DEBUG_	src/littlefs/lfs_util.h	/^#define LFS_DEBUG_(/;"	d
+LFS_DIR_TRAVERSE_DEPTH	src/littlefs/lfs.c	/^#define LFS_DIR_TRAVERSE_DEPTH /;"	d	file:
+LFS_DISK_VERSION	src/littlefs/lfs.h	/^#define LFS_DISK_VERSION /;"	d
+LFS_DISK_VERSION_MAJOR	src/littlefs/lfs.h	/^#define LFS_DISK_VERSION_MAJOR /;"	d
+LFS_DISK_VERSION_MINOR	src/littlefs/lfs.h	/^#define LFS_DISK_VERSION_MINOR /;"	d
+LFS_ERROR	src/lfs_config.h	/^#define LFS_ERROR(/;"	d
+LFS_ERROR	src/littlefs/lfs_util.h	/^#define LFS_ERROR(/;"	d
+LFS_ERROR_	src/lfs_config.h	/^#define LFS_ERROR_(/;"	d
+LFS_ERROR_	src/littlefs/lfs_util.h	/^#define LFS_ERROR_(/;"	d
+LFS_ERR_BADF	src/littlefs/lfs.h	/^    LFS_ERR_BADF        = -9,   \/\/ Bad file number$/;"	e	enum:lfs_error
+LFS_ERR_CORRUPT	src/littlefs/lfs.h	/^    LFS_ERR_CORRUPT     = -84,  \/\/ Corrupted$/;"	e	enum:lfs_error
+LFS_ERR_EXIST	src/littlefs/lfs.h	/^    LFS_ERR_EXIST       = -17,  \/\/ Entry already exists$/;"	e	enum:lfs_error
+LFS_ERR_FBIG	src/littlefs/lfs.h	/^    LFS_ERR_FBIG        = -27,  \/\/ File too large$/;"	e	enum:lfs_error
+LFS_ERR_INVAL	src/littlefs/lfs.h	/^    LFS_ERR_INVAL       = -22,  \/\/ Invalid parameter$/;"	e	enum:lfs_error
+LFS_ERR_IO	src/littlefs/lfs.h	/^    LFS_ERR_IO          = -5,   \/\/ Error during device operation$/;"	e	enum:lfs_error
+LFS_ERR_ISDIR	src/littlefs/lfs.h	/^    LFS_ERR_ISDIR       = -21,  \/\/ Entry is a dir$/;"	e	enum:lfs_error
+LFS_ERR_NAMETOOLONG	src/littlefs/lfs.h	/^    LFS_ERR_NAMETOOLONG = -36,  \/\/ File name too long$/;"	e	enum:lfs_error
+LFS_ERR_NOATTR	src/littlefs/lfs.h	/^    LFS_ERR_NOATTR      = -61,  \/\/ No data\/attr available$/;"	e	enum:lfs_error
+LFS_ERR_NOENT	src/littlefs/lfs.h	/^    LFS_ERR_NOENT       = -2,   \/\/ No directory entry$/;"	e	enum:lfs_error
+LFS_ERR_NOMEM	src/littlefs/lfs.h	/^    LFS_ERR_NOMEM       = -12,  \/\/ No more memory available$/;"	e	enum:lfs_error
+LFS_ERR_NOSPC	src/littlefs/lfs.h	/^    LFS_ERR_NOSPC       = -28,  \/\/ No space left on device$/;"	e	enum:lfs_error
+LFS_ERR_NOTDIR	src/littlefs/lfs.h	/^    LFS_ERR_NOTDIR      = -20,  \/\/ Entry is not a dir$/;"	e	enum:lfs_error
+LFS_ERR_NOTEMPTY	src/littlefs/lfs.h	/^    LFS_ERR_NOTEMPTY    = -39,  \/\/ Dir is not empty$/;"	e	enum:lfs_error
+LFS_ERR_OK	src/littlefs/lfs.h	/^    LFS_ERR_OK          = 0,    \/\/ No error$/;"	e	enum:lfs_error
+LFS_FILEBD_H	src/littlefs/bd/lfs_filebd.h	/^#define LFS_FILEBD_H$/;"	d
+LFS_FILEBD_TRACE	src/littlefs/bd/lfs_filebd.h	/^#define LFS_FILEBD_TRACE(/;"	d
+LFS_FILE_MAX	src/littlefs/lfs.h	/^#define LFS_FILE_MAX /;"	d
+LFS_FROM_MOVE	src/littlefs/lfs.h	/^    LFS_FROM_MOVE           = 0x101,$/;"	e	enum:lfs_type
+LFS_FROM_NOOP	src/littlefs/lfs.h	/^    LFS_FROM_NOOP           = 0x000,$/;"	e	enum:lfs_type
+LFS_FROM_USERATTRS	src/littlefs/lfs.h	/^    LFS_FROM_USERATTRS      = 0x102,$/;"	e	enum:lfs_type
+LFS_F_DIRTY	src/littlefs/lfs.h	/^    LFS_F_DIRTY   = 0x010000, \/\/ File does not match storage$/;"	e	enum:lfs_open_flags
+LFS_F_ERRED	src/littlefs/lfs.h	/^    LFS_F_ERRED   = 0x080000, \/\/ An error occurred during write$/;"	e	enum:lfs_open_flags
+LFS_F_INLINE	src/littlefs/lfs.h	/^    LFS_F_INLINE  = 0x100000, \/\/ Currently inlined in directory entry$/;"	e	enum:lfs_open_flags
+LFS_F_READING	src/littlefs/lfs.h	/^    LFS_F_READING = 0x040000, \/\/ File has been read since last flush$/;"	e	enum:lfs_open_flags
+LFS_F_WRITING	src/littlefs/lfs.h	/^    LFS_F_WRITING = 0x020000, \/\/ File has been written since last flush$/;"	e	enum:lfs_open_flags
+LFS_H	src/littlefs/lfs.h	/^#define LFS_H$/;"	d
+LFS_LOCK	src/littlefs/lfs.c	/^#define LFS_LOCK(/;"	d	file:
+LFS_MKATTRS	src/littlefs/lfs.c	/^#define LFS_MKATTRS(/;"	d	file:
+LFS_MKTAG	src/littlefs/lfs.c	/^#define LFS_MKTAG(/;"	d	file:
+LFS_MKTAG_IF	src/littlefs/lfs.c	/^#define LFS_MKTAG_IF(/;"	d	file:
+LFS_MKTAG_IF_ELSE	src/littlefs/lfs.c	/^#define LFS_MKTAG_IF_ELSE(/;"	d	file:
+LFS_NAME_MAX	mklittlefs/main.cpp	/^#define LFS_NAME_MAX /;"	d	file:
+LFS_NAME_MAX	src/littlefs/lfs.h	/^#define LFS_NAME_MAX /;"	d
+LFS_OK_DROPPED	src/littlefs/lfs.c	/^    LFS_OK_DROPPED   = 2,$/;"	e	enum:__anon5	file:
+LFS_OK_ORPHANED	src/littlefs/lfs.c	/^    LFS_OK_ORPHANED  = 3,$/;"	e	enum:__anon5	file:
+LFS_OK_RELOCATED	src/littlefs/lfs.c	/^    LFS_OK_RELOCATED = 1,$/;"	e	enum:__anon5	file:
+LFS_O_APPEND	src/littlefs/lfs.h	/^    LFS_O_APPEND = 0x0800,    \/\/ Move to end of file on every write$/;"	e	enum:lfs_open_flags
+LFS_O_CREAT	src/littlefs/lfs.h	/^    LFS_O_CREAT  = 0x0100,    \/\/ Create a file if it does not exist$/;"	e	enum:lfs_open_flags
+LFS_O_EXCL	src/littlefs/lfs.h	/^    LFS_O_EXCL   = 0x0200,    \/\/ Fail if a file already exists$/;"	e	enum:lfs_open_flags
+LFS_O_RDONLY	src/littlefs/lfs.h	/^    LFS_O_RDONLY = 1,         \/\/ Open a file as read only$/;"	e	enum:lfs_open_flags
+LFS_O_RDWR	src/littlefs/lfs.h	/^    LFS_O_RDWR   = 3,         \/\/ Open a file as read and write$/;"	e	enum:lfs_open_flags
+LFS_O_TRUNC	src/littlefs/lfs.h	/^    LFS_O_TRUNC  = 0x0400,    \/\/ Truncate the existing file to zero size$/;"	e	enum:lfs_open_flags
+LFS_O_WRONLY	src/littlefs/lfs.h	/^    LFS_O_WRONLY = 2,         \/\/ Open a file as write only$/;"	e	enum:lfs_open_flags
+LFS_RAMBD_H	src/littlefs/bd/lfs_rambd.h	/^#define LFS_RAMBD_H$/;"	d
+LFS_RAMBD_TRACE	src/littlefs/bd/lfs_rambd.h	/^#define LFS_RAMBD_TRACE(/;"	d
+LFS_SEEK_CUR	src/littlefs/lfs.h	/^    LFS_SEEK_CUR = 1,   \/\/ Seek relative to the current file position$/;"	e	enum:lfs_whence_flags
+LFS_SEEK_END	src/littlefs/lfs.h	/^    LFS_SEEK_END = 2,   \/\/ Seek relative to the end of the file$/;"	e	enum:lfs_whence_flags
+LFS_SEEK_SET	src/littlefs/lfs.h	/^    LFS_SEEK_SET = 0,   \/\/ Seek relative to an absolute position$/;"	e	enum:lfs_whence_flags
+LFS_STRINGIZE	src/littlefs/lfs_util.h	/^#define LFS_STRINGIZE(/;"	d
+LFS_STRINGIZE2	src/littlefs/lfs_util.h	/^#define LFS_STRINGIZE2(/;"	d
+LFS_TESTBD_BADBLOCK_ERASEERROR	src/littlefs/bd/lfs_testbd.h	/^    LFS_TESTBD_BADBLOCK_ERASEERROR,$/;"	e	enum:lfs_testbd_badblock_behavior
+LFS_TESTBD_BADBLOCK_ERASENOOP	src/littlefs/bd/lfs_testbd.h	/^    LFS_TESTBD_BADBLOCK_ERASENOOP,$/;"	e	enum:lfs_testbd_badblock_behavior
+LFS_TESTBD_BADBLOCK_PROGERROR	src/littlefs/bd/lfs_testbd.h	/^    LFS_TESTBD_BADBLOCK_PROGERROR,$/;"	e	enum:lfs_testbd_badblock_behavior
+LFS_TESTBD_BADBLOCK_PROGNOOP	src/littlefs/bd/lfs_testbd.h	/^    LFS_TESTBD_BADBLOCK_PROGNOOP,$/;"	e	enum:lfs_testbd_badblock_behavior
+LFS_TESTBD_BADBLOCK_READERROR	src/littlefs/bd/lfs_testbd.h	/^    LFS_TESTBD_BADBLOCK_READERROR,$/;"	e	enum:lfs_testbd_badblock_behavior
+LFS_TESTBD_H	src/littlefs/bd/lfs_testbd.h	/^#define LFS_TESTBD_H$/;"	d
+LFS_TESTBD_TRACE	src/littlefs/bd/lfs_testbd.h	/^#define LFS_TESTBD_TRACE(/;"	d
+LFS_TRACE	src/lfs_config.h	/^#define LFS_TRACE(/;"	d
+LFS_TRACE	src/littlefs/lfs_util.h	/^#define LFS_TRACE(/;"	d
+LFS_TRACE_	src/lfs_config.h	/^#define LFS_TRACE_(/;"	d
+LFS_TRACE_	src/littlefs/lfs_util.h	/^#define LFS_TRACE_(/;"	d
+LFS_TYPE_CRC	src/littlefs/lfs.h	/^    LFS_TYPE_CRC            = 0x500,$/;"	e	enum:lfs_type
+LFS_TYPE_CREATE	src/littlefs/lfs.h	/^    LFS_TYPE_CREATE         = 0x401,$/;"	e	enum:lfs_type
+LFS_TYPE_CTZSTRUCT	src/littlefs/lfs.h	/^    LFS_TYPE_CTZSTRUCT      = 0x202,$/;"	e	enum:lfs_type
+LFS_TYPE_DELETE	src/littlefs/lfs.h	/^    LFS_TYPE_DELETE         = 0x4ff,$/;"	e	enum:lfs_type
+LFS_TYPE_DIR	src/littlefs/lfs.h	/^    LFS_TYPE_DIR            = 0x002,$/;"	e	enum:lfs_type
+LFS_TYPE_DIRSTRUCT	src/littlefs/lfs.h	/^    LFS_TYPE_DIRSTRUCT      = 0x200,$/;"	e	enum:lfs_type
+LFS_TYPE_FROM	src/littlefs/lfs.h	/^    LFS_TYPE_FROM           = 0x100,$/;"	e	enum:lfs_type
+LFS_TYPE_GLOBALS	src/littlefs/lfs.h	/^    LFS_TYPE_GLOBALS        = 0x700,$/;"	e	enum:lfs_type
+LFS_TYPE_HARDTAIL	src/littlefs/lfs.h	/^    LFS_TYPE_HARDTAIL       = 0x601,$/;"	e	enum:lfs_type
+LFS_TYPE_INLINESTRUCT	src/littlefs/lfs.h	/^    LFS_TYPE_INLINESTRUCT   = 0x201,$/;"	e	enum:lfs_type
+LFS_TYPE_MOVESTATE	src/littlefs/lfs.h	/^    LFS_TYPE_MOVESTATE      = 0x7ff,$/;"	e	enum:lfs_type
+LFS_TYPE_NAME	src/littlefs/lfs.h	/^    LFS_TYPE_NAME           = 0x000,$/;"	e	enum:lfs_type
+LFS_TYPE_REG	src/littlefs/lfs.h	/^    LFS_TYPE_REG            = 0x001,$/;"	e	enum:lfs_type
+LFS_TYPE_SOFTTAIL	src/littlefs/lfs.h	/^    LFS_TYPE_SOFTTAIL       = 0x600,$/;"	e	enum:lfs_type
+LFS_TYPE_SPLICE	src/littlefs/lfs.h	/^    LFS_TYPE_SPLICE         = 0x400,$/;"	e	enum:lfs_type
+LFS_TYPE_STRUCT	src/littlefs/lfs.h	/^    LFS_TYPE_STRUCT         = 0x200,$/;"	e	enum:lfs_type
+LFS_TYPE_SUPERBLOCK	src/littlefs/lfs.h	/^    LFS_TYPE_SUPERBLOCK     = 0x0ff,$/;"	e	enum:lfs_type
+LFS_TYPE_TAIL	src/littlefs/lfs.h	/^    LFS_TYPE_TAIL           = 0x600,$/;"	e	enum:lfs_type
+LFS_TYPE_USERATTR	src/littlefs/lfs.h	/^    LFS_TYPE_USERATTR       = 0x300,$/;"	e	enum:lfs_type
+LFS_UNLOCK	src/littlefs/lfs.c	/^#define LFS_UNLOCK(/;"	d	file:
+LFS_UTIL_H	src/littlefs/lfs_util.h	/^#define LFS_UTIL_H$/;"	d
+LFS_VERSION	src/littlefs/lfs.h	/^#define LFS_VERSION /;"	d
+LFS_VERSION_MAJOR	src/littlefs/lfs.h	/^#define LFS_VERSION_MAJOR /;"	d
+LFS_VERSION_MINOR	src/littlefs/lfs.h	/^#define LFS_VERSION_MINOR /;"	d
+LFS_WARN	src/lfs_config.h	/^#define LFS_WARN(/;"	d
+LFS_WARN	src/littlefs/lfs_util.h	/^#define LFS_WARN(/;"	d
+LFS_WARN_	src/lfs_config.h	/^#define LFS_WARN_(/;"	d
+LFS_WARN_	src/littlefs/lfs_util.h	/^#define LFS_WARN_(/;"	d
+LITTLEFS_ATTR_MTIME	src/esp_littlefs.c	/^#define LITTLEFS_ATTR_MTIME /;"	d	file:
+LITTLEFS_VERSION	mklittlefs/Makefile	/^LITTLEFS_VERSION := $(shell git -C ..\/src\/littlefs describe --tags || echo "unknown")$/;"	m
+MAXWIDTH	src/littlefs/scripts/explode_asserts.py	/^MAXWIDTH = 16$/;"	v
+MAX_FILES	test/test_benchmark.c	/^#define MAX_FILES /;"	d	file:
+MetadataPair	src/littlefs/scripts/readmdir.py	/^class MetadataPair:$/;"	c
+MetadataPair	src/littlefs/scripts/readtree.py	/^from readmdir import Tag, MetadataPair$/;"	i
+MultiArg	mklittlefs/tclap/MultiArg.h	/^MultiArg<T>::MultiArg(const std::string& flag, $/;"	f	class:TCLAP::MultiArg
+MultiArg	mklittlefs/tclap/MultiArg.h	/^class MultiArg : public Arg$/;"	c	namespace:TCLAP
+MultiSwitchArg	mklittlefs/tclap/MultiSwitchArg.h	/^class MultiSwitchArg : public SwitchArg$/;"	c	namespace:TCLAP
+MultiSwitchArg	mklittlefs/tclap/MultiSwitchArg.h	/^inline MultiSwitchArg::MultiSwitchArg(const std::string& flag,$/;"	f	class:TCLAP::MultiSwitchArg
+NM	src/littlefs/Makefile	/^NM      ?= nm$/;"	m
+OBJ	mklittlefs/Makefile	/^OBJ		:= main.o \\$/;"	m
+OBJ	src/littlefs/Makefile	/^OBJ := $(SRC:%.c=$(BUILDDIR)%.o)$/;"	m
+OBJDUMP	src/littlefs/Makefile	/^OBJDUMP ?= objdump$/;"	m
+OBJ_PATHS	src/littlefs/scripts/code.py	/^OBJ_PATHS = ['*.o']$/;"	v
+OBJ_PATHS	src/littlefs/scripts/data.py	/^OBJ_PATHS = ['*.o']$/;"	v
+OBJ_PATHS	src/littlefs/scripts/structs.py	/^OBJ_PATHS = ['*.o']$/;"	v
+OptionalUnlabeledTracker	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^class OptionalUnlabeledTracker$/;"	c	namespace:TCLAP
+PASS	src/littlefs/scripts/test.py	/^PASS = '\\033[32m✓\\033[0m'$/;"	v
+PATH_MAX	mklittlefs/main.cpp	/^#define PATH_MAX /;"	d	file:
+PATTERN	src/littlefs/scripts/explode_asserts.py	/^PATTERN = ['LFS_ASSERT', 'assert']$/;"	v
+PPFLAGS	mklittlefs/Makefile	/^override CPPFLAGS := \\$/;"	m
+PREFIX	src/littlefs/scripts/explode_asserts.py	/^PREFIX = 'LFS'$/;"	v
+PROJECT_NAME	Makefile	/^PROJECT_NAME := littlefs$/;"	m
+PROJECT_NAME	example/Makefile	/^PROJECT_NAME := demo_esp_littlefs$/;"	m
+Parse	src/littlefs/scripts/explode_asserts.py	/^class Parse:$/;"	c
+ParseFailure	src/littlefs/scripts/explode_asserts.py	/^class ParseFailure(Exception):$/;"	c
+READ_WRITE_TEST_ARG_INIT	test/test_littlefs.c	/^#define READ_WRITE_TEST_ARG_INIT(/;"	d	file:
+ReentrantTestCase	src/littlefs/scripts/test.py	/^class ReentrantTestCase(TestCase):$/;"	c
+SIZE	src/littlefs/Makefile	/^SIZE    ?= size$/;"	m
+SPIFFS_ALIGNED_OBJECT_INDEX_TABLES	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_ALIGNED_OBJECT_INDEX_TABLES /;"	d
+SPIFFS_API_DBG	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_API_DBG(/;"	d
+SPIFFS_BUFFER_HELP	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_BUFFER_HELP /;"	d
+SPIFFS_CACHE	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CACHE /;"	d
+SPIFFS_CACHE_DBG	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CACHE_DBG(/;"	d
+SPIFFS_CACHE_STATS	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CACHE_STATS /;"	d
+SPIFFS_CACHE_WR	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CACHE_WR /;"	d
+SPIFFS_CHECK_DBG	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CHECK_DBG(/;"	d
+SPIFFS_CONFIG_H_	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_CONFIG_H_$/;"	d
+SPIFFS_COPY_BUFFER_STACK	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_COPY_BUFFER_STACK /;"	d
+SPIFFS_DBG	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_DBG(/;"	d
+SPIFFS_FILEHDL_OFFSET	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_FILEHDL_OFFSET /;"	d
+SPIFFS_GC_DBG	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_DBG(/;"	d
+SPIFFS_GC_HEUR_W_DELET	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_HEUR_W_DELET /;"	d
+SPIFFS_GC_HEUR_W_ERASE_AGE	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_HEUR_W_ERASE_AGE /;"	d
+SPIFFS_GC_HEUR_W_USED	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_HEUR_W_USED /;"	d
+SPIFFS_GC_MAX_RUNS	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_MAX_RUNS /;"	d
+SPIFFS_GC_STATS	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_GC_STATS /;"	d
+SPIFFS_HAL_CALLBACK_EXTRA	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_HAL_CALLBACK_EXTRA /;"	d
+SPIFFS_IX_MAP	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_IX_MAP /;"	d
+SPIFFS_LOCK	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_LOCK(/;"	d
+SPIFFS_OBJ_META_LEN	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_OBJ_META_LEN /;"	d
+SPIFFS_OBJ_NAME_LEN	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_OBJ_NAME_LEN /;"	d
+SPIFFS_PAGE_CHECK	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_PAGE_CHECK /;"	d
+SPIFFS_READ_ONLY	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_READ_ONLY /;"	d
+SPIFFS_SINGLETON	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_SINGLETON /;"	d
+SPIFFS_TEMPORAL_CACHE_HIT_SCORE	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEMPORAL_CACHE_HIT_SCORE /;"	d
+SPIFFS_TEMPORAL_FD_CACHE	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEMPORAL_FD_CACHE /;"	d
+SPIFFS_TEST_VISUALISATION	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEST_VISUALISATION /;"	d
+SPIFFS_TEST_VIS_DATA_STR	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEST_VIS_DATA_STR(/;"	d
+SPIFFS_TEST_VIS_DELE_STR	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEST_VIS_DELE_STR /;"	d
+SPIFFS_TEST_VIS_FREE_STR	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEST_VIS_FREE_STR /;"	d
+SPIFFS_TEST_VIS_INDX_STR	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_TEST_VIS_INDX_STR(/;"	d
+SPIFFS_UNLOCK	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_UNLOCK(/;"	d
+SPIFFS_USE_MAGIC	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_USE_MAGIC /;"	d
+SPIFFS_USE_MAGIC_LENGTH	mklittlefs/include/spiffs_config.h	/^#define SPIFFS_USE_MAGIC_LENGTH /;"	d
+SRC	src/littlefs/Makefile	/^SRC ?= $(wildcard *.c)$/;"	m
+STRIP	mklittlefs/Makefile	/^STRIP ?= strip$/;"	m
+SetString	mklittlefs/tclap/StandardTraits.h	/^void SetString(T &dst, const std::string &src)$/;"	f	namespace:TCLAP
+SpecificationException	mklittlefs/tclap/ArgException.h	/^		SpecificationException( const std::string& text = "undefined exception",$/;"	f	class:TCLAP::SpecificationException
+SpecificationException	mklittlefs/tclap/ArgException.h	/^class SpecificationException : public ArgException$/;"	c	namespace:TCLAP
+StdOutput	mklittlefs/tclap/StdOutput.h	/^class StdOutput : public CmdLineOutput$/;"	c	namespace:TCLAP
+StringLike	mklittlefs/tclap/ArgTraits.h	/^struct StringLike {$/;"	s	namespace:TCLAP
+StringLikeTrait	mklittlefs/tclap/ArgTraits.h	/^struct StringLikeTrait {$/;"	s	namespace:TCLAP
+SwitchArg	mklittlefs/tclap/SwitchArg.h	/^class SwitchArg : public Arg$/;"	c	namespace:TCLAP
+SwitchArg	mklittlefs/tclap/SwitchArg.h	/^inline SwitchArg::SwitchArg(const std::string& flag, $/;"	f	class:TCLAP::SwitchArg
+TAG	example/main/demo_esp_littlefs.c	/^static const char *TAG = "demo_esp_littlefs";$/;"	v	file:
+TAG	src/esp_littlefs.c	/^static const char TAG[] = "esp_littlefs";$/;"	v	file:
+TAG	src/littlefs_api.c	/^static const char TAG[] = "esp_littlefs_api";$/;"	v	file:
+TAG	test/test_benchmark.c	/^static const char TAG[] = "[benchmark]";$/;"	v	file:
+TAG_TYPES	src/littlefs/scripts/readmdir.py	/^TAG_TYPES = {$/;"	v
+TARGET	mklittlefs/Makefile	/^	TARGET := mklittlefs$/;"	m
+TARGET	mklittlefs/Makefile	/^	TARGET := mklittlefs.exe$/;"	m
+TARGET	src/littlefs/Makefile	/^TARGET ?= $(BUILDDIR)lfs$/;"	m
+TARGET	src/littlefs/Makefile	/^TARGET ?= $(BUILDDIR)lfs.a$/;"	m
+TARGET_CFLAGS	mklittlefs/Makefile	/^	TARGET_CFLAGS = -mno-ms-bitfields$/;"	m
+TARGET_LDFLAGS	mklittlefs/Makefile	/^	TARGET_LDFLAGS = -Wl,-static -static-libgcc -static-libstdc++$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^			TARGET_OS := linux-armhf$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^			TARGET_OS := linux32$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^			TARGET_OS := linux64$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^		TARGET_OS := freebsd$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^		TARGET_OS := osx$/;"	m
+TARGET_OS	mklittlefs/Makefile	/^	TARGET_OS := win32$/;"	m
+TASK_SIZE	test/test_littlefs.c	/^#define TASK_SIZE /;"	d	file:
+TASK_SIZE	test/test_littlefs.c	/^#undef TASK_SIZE$/;"	d	file:
+TCLAP	mklittlefs/tclap/Arg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/ArgException.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/ArgTraits.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/CmdLine.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/CmdLineInterface.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/CmdLineOutput.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/Constraint.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/DocBookOutput.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/HelpVisitor.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/IgnoreRestVisitor.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/MultiArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/MultiSwitchArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/StandardTraits.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/StdOutput.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/SwitchArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/UnlabeledMultiArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/UnlabeledValueArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/ValueArg.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/ValuesConstraint.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/VersionVisitor.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/Visitor.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/XorHandler.h	/^namespace TCLAP {$/;"	n
+TCLAP	mklittlefs/tclap/ZshCompletionOutput.h	/^namespace TCLAP {$/;"	n
+TCLAP_ARGTRAITS_H	mklittlefs/tclap/ArgTraits.h	/^#define TCLAP_ARGTRAITS_H$/;"	d
+TCLAP_ARGUMENT_H	mklittlefs/tclap/Arg.h	/^#define TCLAP_ARGUMENT_H$/;"	d
+TCLAP_ARG_EXCEPTION_H	mklittlefs/tclap/ArgException.h	/^#define TCLAP_ARG_EXCEPTION_H$/;"	d
+TCLAP_CMDLINEOUTPUT_H	mklittlefs/tclap/CmdLineOutput.h	/^#define TCLAP_CMDLINEOUTPUT_H$/;"	d
+TCLAP_CMDLINE_H	mklittlefs/tclap/CmdLine.h	/^#define TCLAP_CMDLINE_H$/;"	d
+TCLAP_COMMANDLINE_INTERFACE_H	mklittlefs/tclap/CmdLineInterface.h	/^#define TCLAP_COMMANDLINE_INTERFACE_H$/;"	d
+TCLAP_CONSTRAINT_H	mklittlefs/tclap/Constraint.h	/^#define TCLAP_CONSTRAINT_H$/;"	d
+TCLAP_DOCBOOKOUTPUT_H	mklittlefs/tclap/DocBookOutput.h	/^#define TCLAP_DOCBOOKOUTPUT_H$/;"	d
+TCLAP_DONT_DECLARE_WCHAR_T_ARGTRAITS	mklittlefs/tclap/StandardTraits.h	/^#define TCLAP_DONT_DECLARE_WCHAR_T_ARGTRAITS$/;"	d
+TCLAP_FLAGSTARTCHAR	mklittlefs/tclap/Arg.h	/^#define TCLAP_FLAGSTARTCHAR /;"	d
+TCLAP_FLAGSTARTSTRING	mklittlefs/tclap/Arg.h	/^#define TCLAP_FLAGSTARTSTRING /;"	d
+TCLAP_HELP_VISITOR_H	mklittlefs/tclap/HelpVisitor.h	/^#define TCLAP_HELP_VISITOR_H$/;"	d
+TCLAP_IGNORE_REST_VISITOR_H	mklittlefs/tclap/IgnoreRestVisitor.h	/^#define TCLAP_IGNORE_REST_VISITOR_H$/;"	d
+TCLAP_MULTIPLE_ARGUMENT_H	mklittlefs/tclap/MultiArg.h	/^#define TCLAP_MULTIPLE_ARGUMENT_H$/;"	d
+TCLAP_MULTIPLE_UNLABELED_ARGUMENT_H	mklittlefs/tclap/UnlabeledMultiArg.h	/^#define TCLAP_MULTIPLE_UNLABELED_ARGUMENT_H$/;"	d
+TCLAP_MULTI_SWITCH_ARG_H	mklittlefs/tclap/MultiSwitchArg.h	/^#define TCLAP_MULTI_SWITCH_ARG_H$/;"	d
+TCLAP_NAMESTARTSTRING	mklittlefs/tclap/Arg.h	/^#define TCLAP_NAMESTARTSTRING /;"	d
+TCLAP_OPTIONAL_UNLABELED_TRACKER_H	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^#define TCLAP_OPTIONAL_UNLABELED_TRACKER_H$/;"	d
+TCLAP_SETBASE_ZERO	mklittlefs/main.cpp	/^#define TCLAP_SETBASE_ZERO /;"	d	file:
+TCLAP_STANDARD_TRAITS_H	mklittlefs/tclap/StandardTraits.h	/^#define TCLAP_STANDARD_TRAITS_H$/;"	d
+TCLAP_STDCMDLINEOUTPUT_H	mklittlefs/tclap/StdOutput.h	/^#define TCLAP_STDCMDLINEOUTPUT_H$/;"	d
+TCLAP_SWITCH_ARG_H	mklittlefs/tclap/SwitchArg.h	/^#define TCLAP_SWITCH_ARG_H$/;"	d
+TCLAP_UNLABELED_VALUE_ARGUMENT_H	mklittlefs/tclap/UnlabeledValueArg.h	/^#define TCLAP_UNLABELED_VALUE_ARGUMENT_H$/;"	d
+TCLAP_VALUESCONSTRAINT_H	mklittlefs/tclap/ValuesConstraint.h	/^#define TCLAP_VALUESCONSTRAINT_H$/;"	d
+TCLAP_VALUE_ARGUMENT_H	mklittlefs/tclap/ValueArg.h	/^#define TCLAP_VALUE_ARGUMENT_H$/;"	d
+TCLAP_VERSION_VISITOR_H	mklittlefs/tclap/VersionVisitor.h	/^#define TCLAP_VERSION_VISITOR_H$/;"	d
+TCLAP_VISITOR_H	mklittlefs/tclap/Visitor.h	/^#define TCLAP_VISITOR_H$/;"	d
+TCLAP_XORHANDLER_H	mklittlefs/tclap/XorHandler.h	/^#define TCLAP_XORHANDLER_H$/;"	d
+TCLAP_ZSHCOMPLETIONOUTPUT_H	mklittlefs/tclap/ZshCompletionOutput.h	/^#define TCLAP_ZSHCOMPLETIONOUTPUT_H$/;"	d
+TEST_PATHS	src/littlefs/scripts/test.py	/^TEST_PATHS = 'tests'$/;"	v
+TYPE	src/littlefs/scripts/explode_asserts.py	/^TYPE = {$/;"	v
+Tag	src/littlefs/scripts/readmdir.py	/^class Tag:$/;"	c
+Tag	src/littlefs/scripts/readtree.py	/^from readmdir import Tag, MetadataPair$/;"	i
+TestCase	src/littlefs/scripts/test.py	/^class TestCase:$/;"	c
+TestFailure	src/littlefs/scripts/test.py	/^class TestFailure(Exception):$/;"	c
+TestSuite	src/littlefs/scripts/test.py	/^class TestSuite:$/;"	c
+UILDDIR	src/littlefs/Makefile	/^override BUILDDIR := $(BUILDDIR)\/$/;"	m
+UNAME_M	mklittlefs/Makefile	/^		UNAME_M := $(shell uname -m)$/;"	m
+UNAME_S	mklittlefs/Makefile	/^	UNAME_S := $(shell uname -s)$/;"	m
+UnlabeledMultiArg	mklittlefs/tclap/UnlabeledMultiArg.h	/^UnlabeledMultiArg<T>::UnlabeledMultiArg(const std::string& name, $/;"	f	class:TCLAP::UnlabeledMultiArg
+UnlabeledMultiArg	mklittlefs/tclap/UnlabeledMultiArg.h	/^class UnlabeledMultiArg : public MultiArg<T>$/;"	c	namespace:TCLAP
+UnlabeledValueArg	mklittlefs/tclap/UnlabeledValueArg.h	/^UnlabeledValueArg<T>::UnlabeledValueArg(const std::string& name, $/;"	f	class:TCLAP::UnlabeledValueArg
+UnlabeledValueArg	mklittlefs/tclap/UnlabeledValueArg.h	/^class UnlabeledValueArg : public ValueArg<T>$/;"	c	namespace:TCLAP
+VERSION	mklittlefs/Makefile	/^VERSION ?= $(shell git describe --always)$/;"	m
+ValgrindTestCase	src/littlefs/scripts/test.py	/^class ValgrindTestCase(TestCase):$/;"	c
+ValueArg	mklittlefs/tclap/ValueArg.h	/^ValueArg<T>::ValueArg(const std::string& flag, $/;"	f	class:TCLAP::ValueArg
+ValueArg	mklittlefs/tclap/ValueArg.h	/^class ValueArg : public Arg $/;"	c	namespace:TCLAP
+ValueCategory	mklittlefs/tclap/ArgTraits.h	/^    typedef StringLike ValueCategory;$/;"	t	struct:TCLAP::StringLikeTrait
+ValueCategory	mklittlefs/tclap/ArgTraits.h	/^    typedef ValueLike ValueCategory;$/;"	t	struct:TCLAP::ValueLike
+ValueCategory	mklittlefs/tclap/ArgTraits.h	/^    typedef ValueLike ValueCategory;$/;"	t	struct:TCLAP::ValueLikeTrait
+ValueCategory	mklittlefs/tclap/ArgTraits.h	/^    typedef typename T::ValueCategory ValueCategory;$/;"	t	struct:TCLAP::ArgTraits
+ValueCategory	mklittlefs/tclap/StandardTraits.h	/^    typedef StringLike ValueCategory;$/;"	t	struct:TCLAP::ArgTraits
+ValueCategory	mklittlefs/tclap/StandardTraits.h	/^    typedef ValueLike ValueCategory;$/;"	t	struct:TCLAP::ArgTraits
+ValueLike	mklittlefs/tclap/ArgTraits.h	/^struct ValueLike {$/;"	s	namespace:TCLAP
+ValueLikeTrait	mklittlefs/tclap/ArgTraits.h	/^struct ValueLikeTrait {$/;"	s	namespace:TCLAP
+ValuesConstraint	mklittlefs/tclap/ValuesConstraint.h	/^ValuesConstraint<T>::ValuesConstraint(std::vector<T>& allowed)$/;"	f	class:TCLAP::ValuesConstraint
+ValuesConstraint	mklittlefs/tclap/ValuesConstraint.h	/^class ValuesConstraint : public Constraint<T>$/;"	c	namespace:TCLAP
+VersionVisitor	mklittlefs/tclap/VersionVisitor.h	/^		VersionVisitor( CmdLineInterface* cmd, CmdLineOutput** out ) $/;"	f	class:TCLAP::VersionVisitor
+VersionVisitor	mklittlefs/tclap/VersionVisitor.h	/^class VersionVisitor: public Visitor$/;"	c	namespace:TCLAP
+Visitor	mklittlefs/tclap/Visitor.h	/^		Visitor() { }$/;"	f	class:TCLAP::Visitor
+Visitor	mklittlefs/tclap/Visitor.h	/^class Visitor$/;"	c	namespace:TCLAP
+VisitorListIterator	mklittlefs/tclap/Arg.h	/^typedef std::list<Visitor*>::iterator VisitorListIterator;$/;"	t	namespace:TCLAP
+XXFLAGS	mklittlefs/Makefile	/^override CXXFLAGS := -std=gnu++11 -Os -Wall $(TARGET_CXXFLAGS) $(CXXFLAGS)$/;"	m
+XorHandler	mklittlefs/tclap/XorHandler.h	/^		XorHandler( ) : _orList(std::vector< std::vector<Arg*> >()) {}$/;"	f	class:TCLAP::XorHandler
+XorHandler	mklittlefs/tclap/XorHandler.h	/^class XorHandler$/;"	c	namespace:TCLAP
+ZshCompletionOutput	mklittlefs/tclap/ZshCompletionOutput.h	/^ZshCompletionOutput::ZshCompletionOutput()$/;"	f	class:TCLAP::ZshCompletionOutput
+ZshCompletionOutput	mklittlefs/tclap/ZshCompletionOutput.h	/^class ZshCompletionOutput : public CmdLineOutput$/;"	c	namespace:TCLAP
+_SPIPRIad	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIad /;"	d
+_SPIPRIbl	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIbl /;"	d
+_SPIPRIfd	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIfd /;"	d
+_SPIPRIfl	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIfl /;"	d
+_SPIPRIi	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIi /;"	d
+_SPIPRIid	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIid /;"	d
+_SPIPRIpg	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIpg /;"	d
+_SPIPRIsp	mklittlefs/include/spiffs_config.h	/^#define _SPIPRIsp /;"	d
+__bool__	src/littlefs/scripts/readmdir.py	/^    def __bool__(self):$/;"	m	class:MetadataPair	file:
+__bool__	src/littlefs/scripts/readmdir.py	/^    def __bool__(self):$/;"	m	class:Tag	file:
+__contains__	src/littlefs/scripts/readmdir.py	/^    def __contains__(self, args):$/;"	m	class:MetadataPair	file:
+__getitem__	src/littlefs/scripts/readmdir.py	/^    def __getitem__(self, args):$/;"	m	class:MetadataPair	file:
+__index__	src/littlefs/scripts/readmdir.py	/^    def __index__(self):$/;"	m	class:Tag	file:
+__init__	src/littlefs/scripts/explode_asserts.py	/^    def __init__(self, expected, found):$/;"	m	class:ParseFailure
+__init__	src/littlefs/scripts/explode_asserts.py	/^    def __init__(self, inf, lexemes):$/;"	m	class:Parse
+__init__	src/littlefs/scripts/readmdir.py	/^    def __init__(self, *args):$/;"	m	class:Tag
+__init__	src/littlefs/scripts/readmdir.py	/^    def __init__(self, blocks):$/;"	m	class:MetadataPair
+__init__	src/littlefs/scripts/test.py	/^    def __init__(self, case, returncode=None, stdout=None, assert_=None):$/;"	m	class:TestFailure
+__init__	src/littlefs/scripts/test.py	/^    def __init__(self, config, **args):$/;"	m	class:ReentrantTestCase
+__init__	src/littlefs/scripts/test.py	/^    def __init__(self, config, **args):$/;"	m	class:ValgrindTestCase
+__init__	src/littlefs/scripts/test.py	/^    def __init__(self, config, filter=filter,$/;"	m	class:TestCase
+__init__	src/littlefs/scripts/test.py	/^    def __init__(self, path, classes=[TestCase], defines={},$/;"	m	class:TestSuite
+__int__	src/littlefs/scripts/readmdir.py	/^    def __int__(self):$/;"	m	class:Tag	file:
+__lt__	src/littlefs/scripts/readmdir.py	/^    def __lt__(self, other):$/;"	m	class:MetadataPair	file:
+__lt__	src/littlefs/scripts/readmdir.py	/^    def __lt__(self, other):$/;"	m	class:Tag	file:
+__lt__	src/littlefs/scripts/test.py	/^    def __lt__(self, other):$/;"	m	class:TestSuite	file:
+__repr__	src/littlefs/scripts/readmdir.py	/^    def __repr__(self):$/;"	m	class:Tag	file:
+__str__	src/littlefs/scripts/explode_asserts.py	/^    def __str__(self):$/;"	m	class:ParseFailure	file:
+__str__	src/littlefs/scripts/test.py	/^    def __str__(self):$/;"	m	class:TestCase	file:
+__str__	src/littlefs/scripts/test.py	/^    def __str__(self):$/;"	m	class:TestSuite	file:
+_acceptsMultipleValues	mklittlefs/tclap/Arg.h	/^		bool _acceptsMultipleValues;$/;"	m	class:TCLAP::Arg
+_allowMore	mklittlefs/tclap/MultiArg.h	/^	bool _allowMore;$/;"	m	class:TCLAP::MultiArg
+_allowed	mklittlefs/tclap/ValuesConstraint.h	/^		std::vector<T> _allowed;$/;"	m	class:TCLAP::ValuesConstraint
+_alreadySet	mklittlefs/tclap/Arg.h	/^		bool _alreadySet;$/;"	m	class:TCLAP::Arg
+_argDeleteOnExitList	mklittlefs/tclap/CmdLine.h	/^		std::list<Arg*> _argDeleteOnExitList;$/;"	m	class:TCLAP::CmdLine
+_argId	mklittlefs/tclap/ArgException.h	/^		std::string _argId;$/;"	m	class:TCLAP::ArgException
+_argList	mklittlefs/tclap/CmdLine.h	/^		std::list<Arg*> _argList;$/;"	m	class:TCLAP::CmdLine
+_checkWithVisitor	mklittlefs/tclap/Arg.h	/^inline void Arg::_checkWithVisitor() const$/;"	f	class:TCLAP::Arg
+_cmd	mklittlefs/tclap/HelpVisitor.h	/^		CmdLineInterface* _cmd;$/;"	m	class:TCLAP::HelpVisitor
+_cmd	mklittlefs/tclap/VersionVisitor.h	/^		CmdLineInterface* _cmd;$/;"	m	class:TCLAP::VersionVisitor
+_constraint	mklittlefs/tclap/MultiArg.h	/^	Constraint<T>* _constraint;$/;"	m	class:TCLAP::MultiArg
+_constraint	mklittlefs/tclap/ValueArg.h	/^        Constraint<T>* _constraint;$/;"	m	class:TCLAP::ValueArg
+_constructor	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::_constructor()$/;"	f	class:TCLAP::CmdLine
+_default	mklittlefs/tclap/MultiSwitchArg.h	/^		int _default;$/;"	m	class:TCLAP::MultiSwitchArg
+_default	mklittlefs/tclap/SwitchArg.h	/^        bool _default;$/;"	m	class:TCLAP::SwitchArg
+_default	mklittlefs/tclap/ValueArg.h	/^        T _default;$/;"	m	class:TCLAP::ValueArg
+_delimiter	mklittlefs/tclap/CmdLine.h	/^		char _delimiter;$/;"	m	class:TCLAP::CmdLine
+_description	mklittlefs/tclap/Arg.h	/^		std::string _description;$/;"	m	class:TCLAP::Arg
+_dump_tags	src/littlefs/scripts/readmdir.py	/^    def _dump_tags(self, tags, f=sys.stdout, truncate=True):$/;"	m	class:MetadataPair
+_efs	src/esp_littlefs.c	/^static esp_littlefs_t * _efs[CONFIG_LITTLEFS_MAX_PARTITIONS] = { 0 };$/;"	v	file:
+_efs_lock	src/esp_littlefs.c	/^static SemaphoreHandle_t _efs_lock = NULL;$/;"	v	file:
+_emptyCombined	mklittlefs/tclap/CmdLine.h	/^inline bool CmdLine::_emptyCombined(const std::string& s)$/;"	f	class:TCLAP::CmdLine
+_errorText	mklittlefs/tclap/ArgException.h	/^		std::string _errorText;$/;"	m	class:TCLAP::ArgException
+_estat	mklittlefs/tclap/ArgException.h	/^	int _estat;$/;"	m	class:TCLAP::ExitException
+_extractValue	mklittlefs/tclap/MultiArg.h	/^void MultiArg<T>::_extractValue( const std::string& val ) $/;"	f	class:TCLAP::MultiArg
+_extractValue	mklittlefs/tclap/ValueArg.h	/^void ValueArg<T>::_extractValue( const std::string& val ) $/;"	f	class:TCLAP::ValueArg
+_flag	mklittlefs/tclap/Arg.h	/^		std::string _flag;$/;"	m	class:TCLAP::Arg
+_handleExceptions	mklittlefs/tclap/CmdLine.h	/^		bool _handleExceptions;$/;"	m	class:TCLAP::CmdLine
+_hasBlanks	mklittlefs/tclap/Arg.h	/^inline bool Arg::_hasBlanks( const std::string& s ) const$/;"	f	class:TCLAP::Arg
+_helpAndVersion	mklittlefs/tclap/CmdLine.h	/^		bool _helpAndVersion;$/;"	m	class:TCLAP::CmdLine
+_ignoreable	mklittlefs/tclap/Arg.h	/^		bool _ignoreable;$/;"	m	class:TCLAP::Arg
+_longUsage	mklittlefs/tclap/StdOutput.h	/^StdOutput::_longUsage( CmdLineInterface& _cmd, $/;"	f	class:TCLAP::StdOutput
+_message	mklittlefs/tclap/CmdLine.h	/^		std::string _message;$/;"	m	class:TCLAP::CmdLine
+_name	mklittlefs/tclap/Arg.h	/^		std::string _name;$/;"	m	class:TCLAP::Arg
+_numRequired	mklittlefs/tclap/CmdLine.h	/^		int _numRequired;$/;"	m	class:TCLAP::CmdLine
+_orList	mklittlefs/tclap/XorHandler.h	/^		std::vector< std::vector<Arg*> > _orList;$/;"	m	class:TCLAP::XorHandler
+_out	mklittlefs/tclap/HelpVisitor.h	/^		CmdLineOutput** _out;$/;"	m	class:TCLAP::HelpVisitor
+_out	mklittlefs/tclap/VersionVisitor.h	/^		CmdLineOutput** _out;$/;"	m	class:TCLAP::VersionVisitor
+_output	mklittlefs/tclap/CmdLine.h	/^		CmdLineOutput* _output;$/;"	m	class:TCLAP::CmdLine
+_progName	mklittlefs/tclap/CmdLine.h	/^		std::string _progName;$/;"	m	class:TCLAP::CmdLine
+_requireLabel	mklittlefs/tclap/Arg.h	/^		std::string _requireLabel;$/;"	m	class:TCLAP::Arg
+_required	mklittlefs/tclap/Arg.h	/^		bool _required;$/;"	m	class:TCLAP::Arg
+_shortUsage	mklittlefs/tclap/StdOutput.h	/^StdOutput::_shortUsage( CmdLineInterface& _cmd, $/;"	f	class:TCLAP::StdOutput
+_typeDesc	mklittlefs/tclap/MultiArg.h	/^	std::string _typeDesc;$/;"	m	class:TCLAP::MultiArg
+_typeDesc	mklittlefs/tclap/ValueArg.h	/^        std::string _typeDesc;$/;"	m	class:TCLAP::ValueArg
+_typeDesc	mklittlefs/tclap/ValuesConstraint.h	/^		std::string _typeDesc;$/;"	m	class:TCLAP::ValuesConstraint
+_typeDescription	mklittlefs/tclap/ArgException.h	/^		std::string _typeDescription;$/;"	m	class:TCLAP::ArgException
+_userSetOutput	mklittlefs/tclap/CmdLine.h	/^		bool _userSetOutput;$/;"	m	class:TCLAP::CmdLine
+_value	mklittlefs/tclap/MultiSwitchArg.h	/^		int _value;$/;"	m	class:TCLAP::MultiSwitchArg
+_value	mklittlefs/tclap/SwitchArg.h	/^		bool _value;$/;"	m	class:TCLAP::SwitchArg
+_value	mklittlefs/tclap/ValueArg.h	/^        T _value;$/;"	m	class:TCLAP::ValueArg
+_valueRequired	mklittlefs/tclap/Arg.h	/^		bool _valueRequired;$/;"	m	class:TCLAP::Arg
+_values	mklittlefs/tclap/MultiArg.h	/^	std::vector<T> _values;$/;"	m	class:TCLAP::MultiArg
+_version	mklittlefs/tclap/CmdLine.h	/^		std::string _version;$/;"	m	class:TCLAP::CmdLine
+_vfs_littlefs_file_t	src/littlefs_api.h	/^typedef struct _vfs_littlefs_file_t {$/;"	s
+_visitor	mklittlefs/tclap/Arg.h	/^		Visitor* _visitor;$/;"	m	class:TCLAP::Arg
+_visitorDeleteOnExitList	mklittlefs/tclap/CmdLine.h	/^		std::list<Visitor*> _visitorDeleteOnExitList;$/;"	m	class:TCLAP::CmdLine
+_xorHandler	mklittlefs/tclap/CmdLine.h	/^		XorHandler _xorHandler;$/;"	m	class:TCLAP::CmdLine
+_xorSet	mklittlefs/tclap/Arg.h	/^		bool _xorSet;$/;"	m	class:TCLAP::Arg
+abc	src/littlefs/scripts/test.py	/^import collections.abc as abc$/;"	i
+accept	src/littlefs/scripts/explode_asserts.py	/^    def accept(self, *patterns):$/;"	m	class:Parse
+acceptsMultipleValues	mklittlefs/tclap/Arg.h	/^inline bool Arg::acceptsMultipleValues()$/;"	f	class:TCLAP::Arg
+ack	src/littlefs/lfs.h	/^        lfs_block_t ack;$/;"	m	struct:lfs::lfs_free
+action	test/test_littlefs.c	/^    concurrent_task_action_t action;$/;"	m	struct:__anon2	file:
+actionList	mklittlefs/main.cpp	/^int actionList() {$/;"	f
+actionPack	mklittlefs/main.cpp	/^int actionPack() {$/;"	f
+actionUnpack	mklittlefs/main.cpp	/^int actionUnpack(void) {$/;"	f
+add	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::add( Arg& a )$/;"	f	class:TCLAP::CmdLine
+add	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::add( Arg* a )$/;"	f	class:TCLAP::CmdLine
+add	mklittlefs/tclap/XorHandler.h	/^inline void XorHandler::add( std::vector<Arg*>& ors )$/;"	f	class:TCLAP::XorHandler
+addFile	mklittlefs/main.cpp	/^int addFile(char* name, const char* path) {$/;"	f
+addFiles	mklittlefs/main.cpp	/^int addFiles(const char* dirname, const char* subPath) {$/;"	f
+addToList	mklittlefs/tclap/Arg.h	/^inline void Arg::addToList( std::list<Arg*>& argList ) const$/;"	f	class:TCLAP::Arg
+addToList	mklittlefs/tclap/UnlabeledMultiArg.h	/^void UnlabeledMultiArg<T>::addToList( std::list<Arg*>& argList ) const$/;"	f	class:TCLAP::UnlabeledMultiArg
+addToList	mklittlefs/tclap/UnlabeledValueArg.h	/^void UnlabeledValueArg<T>::addToList( std::list<Arg*>& argList ) const$/;"	f	class:TCLAP::UnlabeledValueArg
+alen	src/littlefs/lfs.c	/^        uint8_t alen;$/;"	m	struct:lfs1_entry::lfs1_disk_entry	file:
+alen	src/littlefs/lfs.c	/^        uint8_t alen;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+allowMore	mklittlefs/tclap/Arg.h	/^inline bool Arg::allowMore()$/;"	f	class:TCLAP::Arg
+allowMore	mklittlefs/tclap/MultiArg.h	/^bool MultiArg<T>::allowMore()$/;"	f	class:TCLAP::MultiArg
+alreadyOptional	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^		static bool& alreadyOptional() { return alreadyOptionalRef(); } $/;"	f	class:TCLAP::OptionalUnlabeledTracker
+alreadyOptionalRef	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^		static bool& alreadyOptionalRef() { static bool ct = false; return ct; }$/;"	f	class:TCLAP::OptionalUnlabeledTracker
+app_main	example/main/demo_esp_littlefs.c	/^void app_main(void)$/;"	f
+argId	mklittlefs/tclap/ArgException.h	/^		std::string argId() const  $/;"	f	class:TCLAP::ArgException
+argMatches	mklittlefs/tclap/Arg.h	/^inline bool Arg::argMatches( const std::string& argFlag ) const$/;"	f	class:TCLAP::Arg
+argparse	src/littlefs/scripts/code.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/coverage.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/data.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/explode_asserts.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/readblock.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/readmdir.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/readtree.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/stack.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/structs.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/summary.py	/^    import argparse$/;"	i
+argparse	src/littlefs/scripts/test.py	/^    import argparse$/;"	i
+attr_count	src/littlefs/lfs.h	/^    lfs_size_t attr_count;$/;"	m	struct:lfs_file_config
+attr_max	src/littlefs/lfs.h	/^    lfs_size_t attr_max;$/;"	m	struct:lfs
+attr_max	src/littlefs/lfs.h	/^    lfs_size_t attr_max;$/;"	m	struct:lfs_config
+attr_max	src/littlefs/lfs.h	/^    lfs_size_t attr_max;$/;"	m	struct:lfs_superblock
+attrcount	src/littlefs/lfs.c	/^    int attrcount;$/;"	m	struct:lfs_dir_traverse	file:
+attrs	src/littlefs/lfs.c	/^    const struct lfs_mattr *attrs;$/;"	m	struct:lfs_dir_traverse	typeref:struct:lfs_dir_traverse::lfs_mattr	file:
+attrs	src/littlefs/lfs.h	/^    struct lfs_attr *attrs;$/;"	m	struct:lfs_file_config	typeref:struct:lfs_file_config::lfs_attr
+b	src/littlefs/scripts/coverage.py	/^import bisect as b$/;"	i
+badblock_behavior	src/littlefs/bd/lfs_testbd.h	/^    uint8_t badblock_behavior;$/;"	m	struct:lfs_testbd_config
+base64	src/littlefs/scripts/test.py	/^import base64$/;"	i
+base_path	include/esp_littlefs.h	/^    const char *base_path;            \/**< Mounting point. *\/$/;"	m	struct:__anon3
+base_path	src/littlefs_api.h	/^    char base_path[ESP_VFS_PATH_MAX+1];       \/*!< Mount point *\/$/;"	m	struct:__anon4
+basename	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::basename( std::string& s )$/;"	f	class:TCLAP::DocBookOutput
+basename	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::basename( std::string& s )$/;"	f	class:TCLAP::ZshCompletionOutput
+bd	src/littlefs/bd/lfs_testbd.h	/^            lfs_filebd_t bd;$/;"	m	struct:lfs_testbd::__anon9::__anon10
+bd	src/littlefs/bd/lfs_testbd.h	/^            lfs_rambd_t bd;$/;"	m	struct:lfs_testbd::__anon9::__anon11
+begin	mklittlefs/tclap/MultiArg.h	/^	const_iterator begin() const { return _values.begin(); }$/;"	f	class:TCLAP::MultiArg
+begin	src/littlefs/lfs.c	/^    lfs_off_t begin;$/;"	m	struct:lfs_commit	file:
+begin	src/littlefs/lfs.c	/^    uint16_t begin;$/;"	m	struct:lfs_dir_traverse	file:
+beginIgnoring	mklittlefs/tclap/Arg.h	/^		static void beginIgnoring() { ignoreRestRef() = true; }$/;"	f	class:TCLAP::Arg
+binascii	src/littlefs/scripts/readmdir.py	/^import binascii$/;"	i
+blankChar	mklittlefs/tclap/Arg.h	/^		static char blankChar() { return (char)7; }$/;"	f	class:TCLAP::Arg
+block	src/littlefs/lfs.c	/^    lfs_block_t block;$/;"	m	struct:lfs_commit	file:
+block	src/littlefs/lfs.c	/^    lfs_block_t block;$/;"	m	struct:lfs_diskoff	file:
+block	src/littlefs/lfs.h	/^    lfs_block_t block;$/;"	m	struct:lfs_cache
+block	src/littlefs/lfs.h	/^    lfs_block_t block;$/;"	m	struct:lfs_file
+block_count	src/littlefs/lfs.c	/^        uint32_t block_count;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+block_count	src/littlefs/lfs.h	/^    lfs_size_t block_count;$/;"	m	struct:lfs_config
+block_count	src/littlefs/lfs.h	/^    lfs_size_t block_count;$/;"	m	struct:lfs_superblock
+block_cycles	src/littlefs/lfs.h	/^    int32_t block_cycles;$/;"	m	struct:lfs_config
+block_size	src/littlefs/lfs.c	/^        uint32_t block_size;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+block_size	src/littlefs/lfs.h	/^    lfs_size_t block_size;$/;"	m	struct:lfs_config
+block_size	src/littlefs/lfs.h	/^    lfs_size_t block_size;$/;"	m	struct:lfs_superblock
+buffer	src/littlefs/bd/lfs_rambd.h	/^    uint8_t *buffer;$/;"	m	struct:lfs_rambd
+buffer	src/littlefs/bd/lfs_rambd.h	/^    void *buffer;$/;"	m	struct:lfs_rambd_config
+buffer	src/littlefs/bd/lfs_testbd.h	/^    void *buffer;$/;"	m	struct:lfs_testbd_config
+buffer	src/littlefs/lfs.c	/^    const void *buffer;$/;"	m	struct:lfs_dir_traverse	file:
+buffer	src/littlefs/lfs.c	/^    const void *buffer;$/;"	m	struct:lfs_mattr	file:
+buffer	src/littlefs/lfs.h	/^        uint32_t *buffer;$/;"	m	struct:lfs::lfs_free
+buffer	src/littlefs/lfs.h	/^    uint8_t *buffer;$/;"	m	struct:lfs_cache
+buffer	src/littlefs/lfs.h	/^    void *buffer;$/;"	m	struct:lfs_attr
+buffer	src/littlefs/lfs.h	/^    void *buffer;$/;"	m	struct:lfs_file_config
+build	mklittlefs/build-cross.sh	/^build ()$/;"	f
+build	src/littlefs/scripts/test.py	/^    def build(self, **args):$/;"	m	class:TestSuite
+build	src/littlefs/scripts/test.py	/^    def build(self, f, **_):$/;"	m	class:TestCase
+cache	src/littlefs/lfs.h	/^    lfs_cache_t cache;$/;"	m	struct:lfs_file
+cache	src/littlefs_api.h	/^    vfs_littlefs_file_t **cache;              \/*!< A cache of pointers to the opened files *\/$/;"	m	struct:__anon4
+cache_size	src/littlefs/lfs.h	/^    lfs_size_t cache_size;$/;"	m	struct:lfs_config
+cache_size	src/littlefs_api.h	/^    uint16_t             cache_size;          \/*!< The cache allocated size (in pointers) *\/$/;"	m	struct:__anon4
+cb	src/littlefs/lfs.c	/^    int (*cb)(void *data, lfs_tag_t tag, const void *buffer);$/;"	m	struct:lfs_dir_traverse	file:
+cfg	src/littlefs/bd/lfs_filebd.h	/^    const struct lfs_filebd_config *cfg;$/;"	m	struct:lfs_filebd	typeref:struct:lfs_filebd::lfs_filebd_config
+cfg	src/littlefs/bd/lfs_rambd.h	/^    const struct lfs_rambd_config *cfg;$/;"	m	struct:lfs_rambd	typeref:struct:lfs_rambd::lfs_rambd_config
+cfg	src/littlefs/bd/lfs_testbd.h	/^            struct lfs_filebd_config cfg;$/;"	m	struct:lfs_testbd::__anon9::__anon10	typeref:struct:lfs_testbd::__anon9::__anon10::lfs_filebd_config
+cfg	src/littlefs/bd/lfs_testbd.h	/^            struct lfs_rambd_config cfg;$/;"	m	struct:lfs_testbd::__anon9::__anon11	typeref:struct:lfs_testbd::__anon9::__anon11::lfs_rambd_config
+cfg	src/littlefs/bd/lfs_testbd.h	/^    const struct lfs_testbd_config *cfg;$/;"	m	struct:lfs_testbd	typeref:struct:lfs_testbd::lfs_testbd_config
+cfg	src/littlefs/lfs.h	/^    const struct lfs_config *cfg;$/;"	m	struct:lfs	typeref:struct:lfs::lfs_config
+cfg	src/littlefs/lfs.h	/^    const struct lfs_file_config *cfg;$/;"	m	struct:lfs_file	typeref:struct:lfs_file::lfs_file_config
+cfg	src/littlefs_api.h	/^    struct lfs_config cfg;                    \/*!< littlefs Mount configuration *\/$/;"	m	struct:__anon4	typeref:struct:__anon4::lfs_config
+check	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^inline void OptionalUnlabeledTracker::check( bool req, const std::string& argName )$/;"	f	class:TCLAP::OptionalUnlabeledTracker
+check	mklittlefs/tclap/ValuesConstraint.h	/^bool ValuesConstraint<T>::check( const T& val ) const$/;"	f	class:TCLAP::ValuesConstraint
+check	mklittlefs/tclap/XorHandler.h	/^inline int XorHandler::check( const Arg* a ) $/;"	f	class:TCLAP::XorHandler
+chid	src/littlefs/scripts/readmdir.py	/^    def chid(self, nid):$/;"	m	class:Tag
+chunk	src/littlefs/scripts/readmdir.py	/^    def chunk(self):$/;"	m	class:Tag
+co	src/littlefs/scripts/code.py	/^import collections as co$/;"	i
+co	src/littlefs/scripts/coverage.py	/^import collections as co$/;"	i
+co	src/littlefs/scripts/data.py	/^import collections as co$/;"	i
+co	src/littlefs/scripts/stack.py	/^import collections as co$/;"	i
+co	src/littlefs/scripts/structs.py	/^import collections as co$/;"	i
+co	src/littlefs/scripts/summary.py	/^import collections as co$/;"	i
+collect	src/littlefs/scripts/code.py	/^def collect(paths, **args):$/;"	f
+collect	src/littlefs/scripts/coverage.py	/^def collect(paths, **args):$/;"	f
+collect	src/littlefs/scripts/data.py	/^def collect(paths, **args):$/;"	f
+collect	src/littlefs/scripts/stack.py	/^def collect(paths, **args):$/;"	f
+collect	src/littlefs/scripts/structs.py	/^def collect(paths, **args):$/;"	f
+collections	src/littlefs/scripts/test.py	/^import collections.abc as abc$/;"	i
+combinedSwitchesMatch	mklittlefs/tclap/SwitchArg.h	/^inline bool SwitchArg::combinedSwitchesMatch(std::string& combinedSwitches )$/;"	f	class:TCLAP::SwitchArg
+commit	src/littlefs/lfs.c	/^    struct lfs_commit *commit;$/;"	m	struct:lfs_dir_commit_commit	typeref:struct:lfs_dir_commit_commit::lfs_commit	file:
+common	mklittlefs/tclap/ZshCompletionOutput.h	/^		std::map<std::string, std::string> common;$/;"	m	class:TCLAP::ZshCompletionOutput
+commonProcessing	mklittlefs/tclap/SwitchArg.h	/^inline void SwitchArg::commonProcessing()$/;"	f	class:TCLAP::SwitchArg
+compute_hash	src/esp_littlefs.c	/^static uint32_t compute_hash(const char * path) {$/;"	f	file:
+concurrent_task_action_t	test/test_littlefs.c	/^} concurrent_task_action_t;$/;"	t	typeref:enum:__anon1	file:
+const_iterator	mklittlefs/tclap/MultiArg.h	/^	typedef typename container_type::const_iterator const_iterator;$/;"	t	class:TCLAP::MultiArg
+container_type	mklittlefs/tclap/MultiArg.h	/^	typedef std::vector<T> container_type;	$/;"	t	class:TCLAP::MultiArg
+contains	mklittlefs/tclap/XorHandler.h	/^inline bool XorHandler::contains( const Arg* a )$/;"	f	class:TCLAP::XorHandler
+context	src/littlefs/lfs.h	/^    void *context;$/;"	m	struct:lfs_config
+copy	src/littlefs/scripts/test.py	/^import copy$/;"	i
+count	src/littlefs/lfs.h	/^    uint16_t count;$/;"	m	struct:lfs_mdir
+crc	src/littlefs/lfs.c	/^    uint32_t crc;$/;"	m	struct:lfs_commit	file:
+csv	src/littlefs/scripts/code.py	/^import csv$/;"	i
+csv	src/littlefs/scripts/coverage.py	/^import csv$/;"	i
+csv	src/littlefs/scripts/data.py	/^import csv$/;"	i
+csv	src/littlefs/scripts/stack.py	/^import csv$/;"	i
+csv	src/littlefs/scripts/structs.py	/^import csv$/;"	i
+csv	src/littlefs/scripts/summary.py	/^import csv$/;"	i
+ctz	src/littlefs/lfs.h	/^    } ctz;$/;"	m	struct:lfs_file	typeref:struct:lfs_file::lfs_ctz
+d	src/esp_littlefs.c	/^    lfs_dir_t d;        \/*!< littlefs DIR struct *\/$/;"	m	struct:__anon12	file:
+d	src/littlefs/lfs.c	/^    } d;$/;"	m	struct:lfs1_dir	typeref:struct:lfs1_dir::lfs1_disk_dir	file:
+d	src/littlefs/lfs.c	/^    } d;$/;"	m	struct:lfs1_entry	typeref:struct:lfs1_entry::lfs1_disk_entry	file:
+d	src/littlefs/lfs.c	/^    } d;$/;"	m	struct:lfs1_superblock	typeref:struct:lfs1_superblock::lfs1_disk_superblock	file:
+data	src/littlefs/lfs.c	/^    void *data;$/;"	m	struct:lfs_dir_traverse	file:
+dedup_entries	src/littlefs/scripts/code.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+dedup_entries	src/littlefs/scripts/coverage.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+dedup_entries	src/littlefs/scripts/data.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+dedup_entries	src/littlefs/scripts/stack.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+dedup_entries	src/littlefs/scripts/structs.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+dedup_entries	src/littlefs/scripts/summary.py	/^    def dedup_entries(results, by='name'):$/;"	f	function:main
+deleteOnExit	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::deleteOnExit(Arg* ptr)$/;"	f	class:TCLAP::CmdLine
+deleteOnExit	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::deleteOnExit(Visitor* ptr)$/;"	f	class:TCLAP::CmdLine
+delimiter	mklittlefs/tclap/Arg.h	/^		static char delimiter() { return delimiterRef(); }$/;"	f	class:TCLAP::Arg
+delimiterRef	mklittlefs/tclap/Arg.h	/^		static char& delimiterRef() { static char delim = ' '; return delim; }$/;"	f	class:TCLAP::Arg
+description	mklittlefs/tclap/ValuesConstraint.h	/^std::string ValuesConstraint<T>::description() const$/;"	f	class:TCLAP::ValuesConstraint
+description	src/littlefs/scripts/explode_asserts.py	/^        description="Cpp step that increases assert verbosity")$/;"	v
+description	src/littlefs/scripts/readblock.py	/^        description="Hex dump a specific block in a disk.")$/;"	v
+description	src/littlefs/scripts/readmdir.py	/^        description="Dump useful info about metadata pairs in littlefs.")$/;"	v
+description	src/littlefs/scripts/readtree.py	/^        description="Dump semantic info about the metadata tree in littlefs")$/;"	v
+description	src/littlefs/scripts/test.py	/^        description="Run parameterized tests in various configurations.")$/;"	v
+diff	src/littlefs/lfs.c	/^    int16_t diff;$/;"	m	struct:lfs_dir_traverse	file:
+diff_entries	src/littlefs/scripts/code.py	/^    def diff_entries(olds, news):$/;"	f	function:main
+diff_entries	src/littlefs/scripts/coverage.py	/^    def diff_entries(olds, news):$/;"	f	function:main
+diff_entries	src/littlefs/scripts/data.py	/^    def diff_entries(olds, news):$/;"	f	function:main
+diff_entries	src/littlefs/scripts/stack.py	/^    def diff_entries(olds, news):$/;"	f	function:main
+diff_entries	src/littlefs/scripts/structs.py	/^    def diff_entries(olds, news):$/;"	f	function:main
+dir	src/esp_littlefs.c	/^    DIR dir;            \/*!< VFS DIR struct *\/$/;"	m	struct:__anon12	file:
+dir	src/littlefs/lfs.c	/^            lfs_block_t dir[2];$/;"	m	union:lfs1_entry::lfs1_disk_entry::__anon7	file:
+dir	src/littlefs/lfs.c	/^    const lfs_mdir_t *dir;$/;"	m	struct:lfs_dir_traverse	file:
+dirCreate	mklittlefs/main.cpp	/^bool dirCreate(const char* path) {$/;"	f
+dirExists	mklittlefs/main.cpp	/^bool dirExists(const char* path) {$/;"	f
+disk	src/littlefs/lfs.c	/^    struct lfs_diskoff disk;$/;"	m	struct:lfs_dir_traverse	typeref:struct:lfs_dir_traverse::lfs_diskoff	file:
+done	test/test_littlefs.c	/^    SemaphoreHandle_t done;$/;"	m	struct:__anon2	file:
+dont_mount	include/esp_littlefs.h	/^    uint8_t dont_mount:1;             \/**< Don't attempt to mount or format. Overrides format_if_mount_failed *\/$/;"	m	struct:__anon3
+dsize	src/littlefs/scripts/readmdir.py	/^    def dsize(self):$/;"	m	class:Tag
+dump_all	src/littlefs/scripts/readmdir.py	/^    def dump_all(self, f=sys.stdout, truncate=True):$/;"	m	class:MetadataPair
+dump_log	src/littlefs/scripts/readmdir.py	/^    def dump_log(self, f=sys.stdout, truncate=True):$/;"	m	class:MetadataPair
+dump_tags	src/littlefs/scripts/readmdir.py	/^    def dump_tags(self, f=sys.stdout, truncate=True):$/;"	m	class:MetadataPair
+e	src/esp_littlefs.c	/^    struct dirent e;    \/*!< Last open dirent *\/$/;"	m	struct:__anon12	typeref:struct:__anon12::dirent	file:
+elen	src/littlefs/lfs.c	/^        uint8_t elen;$/;"	m	struct:lfs1_entry::lfs1_disk_entry	file:
+elen	src/littlefs/lfs.c	/^        uint8_t elen;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+end	mklittlefs/tclap/MultiArg.h	/^	const_iterator end() const { return _values.end(); }$/;"	f	class:TCLAP::MultiArg
+end	src/littlefs/lfs.c	/^    lfs_off_t end;$/;"	m	struct:lfs_commit	file:
+end	src/littlefs/lfs.c	/^    uint16_t end;$/;"	m	struct:lfs_dir_traverse	file:
+erase	src/littlefs/lfs.h	/^    int (*erase)(const struct lfs_config *c, lfs_block_t block);$/;"	m	struct:lfs_config
+erase_cycles	src/littlefs/bd/lfs_testbd.h	/^    uint32_t erase_cycles;$/;"	m	struct:lfs_testbd_config
+erase_value	src/littlefs/bd/lfs_filebd.h	/^    int32_t erase_value;$/;"	m	struct:lfs_filebd_config
+erase_value	src/littlefs/bd/lfs_rambd.h	/^    int32_t erase_value;$/;"	m	struct:lfs_rambd_config
+erase_value	src/littlefs/bd/lfs_testbd.h	/^    int32_t erase_value;$/;"	m	struct:lfs_testbd_config
+erased	src/littlefs/lfs.h	/^    bool erased;$/;"	m	struct:lfs_mdir
+errno	src/littlefs/scripts/test.py	/^import errno$/;"	i
+error	mklittlefs/tclap/ArgException.h	/^		std::string error() const { return ( _errorText ); }$/;"	f	class:TCLAP::ArgException
+esp_littlefs_allocate_fd	src/esp_littlefs.c	/^static int esp_littlefs_allocate_fd(esp_littlefs_t *efs, vfs_littlefs_file_t ** file$/;"	f	file:
+esp_littlefs_by_label	src/esp_littlefs.c	/^static esp_err_t esp_littlefs_by_label(const char* label, int * index){$/;"	f	file:
+esp_littlefs_dir_free	src/esp_littlefs.c	/^static void esp_littlefs_dir_free(vfs_littlefs_dir_t *dir){$/;"	f	file:
+esp_littlefs_erase_partition	src/esp_littlefs.c	/^static esp_err_t esp_littlefs_erase_partition(const char *partition_label) {$/;"	f	file:
+esp_littlefs_errno	src/esp_littlefs.c	/^#define esp_littlefs_errno(/;"	d	file:
+esp_littlefs_errno	src/esp_littlefs.c	/^static const char * esp_littlefs_errno(enum lfs_error lfs_errno) {$/;"	f	file:
+esp_littlefs_flags_conv	src/esp_littlefs.c	/^static int esp_littlefs_flags_conv(int m) {$/;"	f	file:
+esp_littlefs_format	src/esp_littlefs.c	/^esp_err_t esp_littlefs_format(const char* partition_label) {$/;"	f
+esp_littlefs_free	src/esp_littlefs.c	/^static void esp_littlefs_free(esp_littlefs_t ** efs)$/;"	f	file:
+esp_littlefs_free_fd	src/esp_littlefs.c	/^static int esp_littlefs_free_fd(esp_littlefs_t *efs, int fd){$/;"	f	file:
+esp_littlefs_free_fds	src/esp_littlefs.c	/^static void esp_littlefs_free_fds(esp_littlefs_t * efs) {$/;"	f	file:
+esp_littlefs_get_empty	src/esp_littlefs.c	/^static esp_err_t esp_littlefs_get_empty(int *index) {$/;"	f	file:
+esp_littlefs_get_fd_by_name	src/esp_littlefs.c	/^static int esp_littlefs_get_fd_by_name(esp_littlefs_t *efs, const char *path){$/;"	f	file:
+esp_littlefs_info	src/esp_littlefs.c	/^esp_err_t esp_littlefs_info(const char* partition_label, size_t *total_bytes, size_t *used_bytes){$/;"	f
+esp_littlefs_init	src/esp_littlefs.c	/^static esp_err_t esp_littlefs_init(const esp_vfs_littlefs_conf_t* conf)$/;"	f	file:
+esp_littlefs_mounted	src/esp_littlefs.c	/^bool esp_littlefs_mounted(const char* partition_label) {$/;"	f
+esp_littlefs_t	src/littlefs_api.h	/^} esp_littlefs_t;$/;"	t	typeref:struct:__anon4
+esp_rom_printf	test/test_littlefs.c	/^#define esp_rom_printf /;"	d	file:
+esp_vfs_fat_spiflash_mount	test/test_benchmark.c	/^#define esp_vfs_fat_spiflash_mount /;"	d	file:
+esp_vfs_fat_spiflash_unmount	test/test_benchmark.c	/^#define esp_vfs_fat_spiflash_unmount /;"	d	file:
+esp_vfs_littlefs_conf_t	include/esp_littlefs.h	/^} esp_vfs_littlefs_conf_t;$/;"	t	typeref:struct:__anon3
+esp_vfs_littlefs_register	src/esp_littlefs.c	/^esp_err_t esp_vfs_littlefs_register(const esp_vfs_littlefs_conf_t * conf)$/;"	f
+esp_vfs_littlefs_unregister	src/esp_littlefs.c	/^esp_err_t esp_vfs_littlefs_unregister(const char* partition_label)$/;"	f
+etag	src/littlefs/lfs.h	/^    uint32_t etag;$/;"	m	struct:lfs_mdir
+expect	src/littlefs/scripts/explode_asserts.py	/^    def expect(self, *patterns):$/;"	m	class:Parse
+fail_str_1	src/esp_littlefs.c	/^#define fail_str_1 /;"	d	file:
+fail_str_1	src/esp_littlefs.c	/^#undef fail_str_1$/;"	d	file:
+failure	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::failure( CmdLineInterface& _cmd,$/;"	f	class:TCLAP::DocBookOutput
+failure	mklittlefs/tclap/StdOutput.h	/^inline void StdOutput::failure( CmdLineInterface& _cmd,$/;"	f	class:TCLAP::StdOutput
+failure	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::failure( CmdLineInterface& _cmd,$/;"	f	class:TCLAP::ZshCompletionOutput
+fd	src/littlefs/bd/lfs_filebd.h	/^    int fd;$/;"	m	struct:lfs_filebd
+fd_count	src/littlefs_api.h	/^    uint16_t             fd_count;            \/*!< The count of opened file descriptor used to speed up computation *\/$/;"	m	struct:__anon4
+file	src/littlefs/bd/lfs_testbd.h	/^        } file;$/;"	m	union:lfs_testbd::__anon9	typeref:struct:lfs_testbd::__anon9::__anon10
+file	src/littlefs/lfs.c	/^            } file;$/;"	m	union:lfs1_entry::lfs1_disk_entry::__anon7	typeref:struct:lfs1_entry::lfs1_disk_entry::__anon7::__anon8	file:
+file	src/littlefs_api.h	/^    lfs_file_t file;$/;"	m	struct:_vfs_littlefs_file_t
+file	src/littlefs_api.h	/^    vfs_littlefs_file_t *file;                \/*!< Singly Linked List of files *\/$/;"	m	struct:__anon4
+file_max	src/littlefs/lfs.h	/^    lfs_size_t file_max;$/;"	m	struct:lfs
+file_max	src/littlefs/lfs.h	/^    lfs_size_t file_max;$/;"	m	struct:lfs_config
+file_max	src/littlefs/lfs.h	/^    lfs_size_t file_max;$/;"	m	struct:lfs_superblock
+file_t	mklittlefs/include/spiffs_config.h	/^typedef int16_t file_t;$/;"	t
+filename	test/test_littlefs.c	/^    const char* filename;$/;"	m	struct:__anon2	file:
+fill_partitions	test/test_benchmark.c	/^static void fill_partitions()$/;"	f	file:
+find_deps	src/littlefs/scripts/stack.py	/^    def find_deps(targets):$/;"	f	function:collect
+find_limit	src/littlefs/scripts/stack.py	/^    def find_limit(source, seen=None):$/;"	f	function:collect
+flagStartChar	mklittlefs/tclap/Arg.h	/^		static char flagStartChar() { return TCLAP_FLAGSTARTCHAR; }$/;"	f	class:TCLAP::Arg
+flagStartString	mklittlefs/tclap/Arg.h	/^		static const std::string flagStartString() { return TCLAP_FLAGSTARTSTRING; }$/;"	f	class:TCLAP::Arg
+flags	src/littlefs/lfs.h	/^    uint32_t flags;$/;"	m	struct:lfs_file
+forceRequired	mklittlefs/tclap/Arg.h	/^inline void Arg::forceRequired()$/;"	f	class:TCLAP::Arg
+format_if_mount_failed	include/esp_littlefs.h	/^    uint8_t format_if_mount_failed:1; \/**< Format the file system if it fails to mount. *\/$/;"	m	struct:__anon3
+free	src/littlefs/lfs.h	/^    } free;$/;"	m	struct:lfs	typeref:struct:lfs::lfs_free
+fs	src/littlefs_api.h	/^    lfs_t *fs;                                \/*!< Handle to the underlying littlefs *\/$/;"	m	struct:__anon4
+ft	src/littlefs/scripts/summary.py	/^import functools as ft$/;"	i
+func_from_lineno	src/littlefs/scripts/coverage.py	/^    def func_from_lineno(file, lineno):$/;"	f	function:collect
+gdelta	src/littlefs/lfs.h	/^    lfs_gstate_t gdelta;$/;"	m	struct:lfs
+gdisk	src/littlefs/lfs.h	/^    lfs_gstate_t gdisk;$/;"	m	struct:lfs
+getArgList	mklittlefs/tclap/CmdLine.h	/^inline std::list<Arg*>& CmdLine::getArgList()$/;"	f	class:TCLAP::CmdLine
+getDelimiter	mklittlefs/tclap/CmdLine.h	/^inline char CmdLine::getDelimiter()$/;"	f	class:TCLAP::CmdLine
+getDescription	mklittlefs/tclap/Arg.h	/^inline std::string Arg::getDescription() const$/;"	f	class:TCLAP::Arg
+getExceptionHandling	mklittlefs/tclap/CmdLine.h	/^inline bool CmdLine::getExceptionHandling() const$/;"	f	class:TCLAP::CmdLine
+getExitStatus	mklittlefs/tclap/ArgException.h	/^	int getExitStatus() const { return _estat; }$/;"	f	class:TCLAP::ExitException
+getFlag	mklittlefs/tclap/Arg.h	/^inline const std::string& Arg::getFlag() const { return _flag; }$/;"	f	class:TCLAP::Arg
+getMessage	mklittlefs/tclap/CmdLine.h	/^inline std::string& CmdLine::getMessage()$/;"	f	class:TCLAP::CmdLine
+getMutexList	mklittlefs/tclap/ZshCompletionOutput.h	/^inline std::string ZshCompletionOutput::getMutexList( CmdLineInterface& _cmd, Arg* a)$/;"	f	class:TCLAP::ZshCompletionOutput
+getName	mklittlefs/tclap/Arg.h	/^inline const std::string& Arg::getName() const { return _name; }$/;"	f	class:TCLAP::Arg
+getOutput	mklittlefs/tclap/CmdLine.h	/^inline CmdLineOutput* CmdLine::getOutput()$/;"	f	class:TCLAP::CmdLine
+getProgramName	mklittlefs/tclap/CmdLine.h	/^inline std::string& CmdLine::getProgramName()$/;"	f	class:TCLAP::CmdLine
+getValue	mklittlefs/tclap/MultiArg.h	/^const std::vector<T>& MultiArg<T>::getValue() { return _values; }$/;"	f	class:TCLAP::MultiArg
+getValue	mklittlefs/tclap/MultiSwitchArg.h	/^inline int MultiSwitchArg::getValue() { return _value; }$/;"	f	class:TCLAP::MultiSwitchArg
+getValue	mklittlefs/tclap/SwitchArg.h	/^inline bool SwitchArg::getValue() { return _value; }$/;"	f	class:TCLAP::SwitchArg
+getValue	mklittlefs/tclap/ValueArg.h	/^T& ValueArg<T>::getValue() { return _value; }$/;"	f	class:TCLAP::ValueArg
+getVersion	mklittlefs/tclap/CmdLine.h	/^inline std::string& CmdLine::getVersion()$/;"	f	class:TCLAP::CmdLine
+getXorHandler	mklittlefs/tclap/CmdLine.h	/^inline XorHandler& CmdLine::getXorHandler()$/;"	f	class:TCLAP::CmdLine
+getXorList	mklittlefs/tclap/XorHandler.h	/^inline std::vector< std::vector<Arg*> >& XorHandler::getXorList() $/;"	f	class:TCLAP::XorHandler
+get_file_size	test/test_benchmark.c	/^static int get_file_size(const char *fname) {$/;"	f	file:
+glob	src/littlefs/scripts/code.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/coverage.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/data.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/prefix.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/stack.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/structs.py	/^import glob$/;"	i
+glob	src/littlefs/scripts/test.py	/^import glob$/;"	i
+gotOptional	mklittlefs/tclap/OptionalUnlabeledTracker.h	/^		static void gotOptional() { alreadyOptionalRef() = true; }$/;"	f	class:TCLAP::OptionalUnlabeledTracker
+gstate	src/littlefs/lfs.h	/^    lfs_gstate_t gstate;$/;"	m	struct:lfs
+hasHelpAndVersion	mklittlefs/tclap/CmdLine.h	/^inline bool CmdLine::hasHelpAndVersion()$/;"	f	class:TCLAP::CmdLine
+hash	src/littlefs_api.h	/^    uint32_t   hash;$/;"	m	struct:_vfs_littlefs_file_t
+head	src/littlefs/lfs.c	/^                lfs_block_t head;$/;"	m	struct:lfs1_entry::lfs1_disk_entry::__anon7::__anon8	file:
+head	src/littlefs/lfs.c	/^    lfs_block_t head[2];$/;"	m	struct:lfs1_dir	file:
+head	src/littlefs/lfs.h	/^        lfs_block_t head;$/;"	m	struct:lfs_file::lfs_ctz
+head	src/littlefs/lfs.h	/^    lfs_block_t head[2];$/;"	m	struct:lfs_dir
+help	src/littlefs/scripts/explode_asserts.py	/^        help="Input C file after cpp.")$/;"	v
+help	src/littlefs/scripts/explode_asserts.py	/^        help="Maximum number of characters to display for strcmp and memcmp.")$/;"	v
+help	src/littlefs/scripts/explode_asserts.py	/^        help="Output C file.")$/;"	v
+help	src/littlefs/scripts/explode_asserts.py	/^        help="Patterns to search for starting an assert statement.")$/;"	v
+help	src/littlefs/scripts/readblock.py	/^        help="Address of block to dump.")$/;"	v
+help	src/littlefs/scripts/readblock.py	/^        help="File representing the block device.")$/;"	v
+help	src/littlefs/scripts/readblock.py	/^        help="Size of a block in bytes.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="Don't truncate large amounts of data.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="File representing the block device.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="First block address for finding the metadata pair.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="Second block address for finding the metadata pair.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="Show all tags in log, included tags in corrupted commits.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="Show tags in log.")$/;"	v
+help	src/littlefs/scripts/readmdir.py	/^        help="Size of a block in bytes.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="File representing the block device.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Optional first block address for finding the superblock.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Optional second block address for finding the superblock.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Show all tags in log, included tags in corrupted commits.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Show tags in log.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Show the full contents of files\/attrs\/tags.")$/;"	v
+help	src/littlefs/scripts/readtree.py	/^        help="Size of a block in bytes.")$/;"	v
+help	src/littlefs/scripts/test.py	/^            \\"test_dirs#1\\" or \\"{0}\/test_dirs.toml#1#1\\".".format(TEST_PATHS))$/;"	v
+help	src/littlefs/scripts/test.py	/^            a path to a *.info file to accumulate coverage info into.")$/;"	v
+help	src/littlefs/scripts/test.py	/^            current directory.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Don't run tests that require internal knowledge.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Drop into gdb on test failure.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Only build the tests, do not execute.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Output everything that is happening.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Overriding parameter definitions.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Run all tests instead of stopping on first error. Useful for CI.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Run non-leaky tests under valgrind to check for memory leaks.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Run reentrant tests with simulated power-loss.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Run tests normally.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Run tests with another executable prefixed on the command line.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Specify a file to use for persistent\/reentrant tests.")$/;"	v
+help	src/littlefs/scripts/test.py	/^        help="Store disk image in a file.")$/;"	v
+i	src/littlefs/lfs.h	/^        lfs_block_t i;$/;"	m	struct:lfs::lfs_free
+id	src/littlefs/lfs.h	/^        uint16_t id;$/;"	m	struct:lfs::lfs_mlist
+id	src/littlefs/lfs.h	/^    uint16_t id;$/;"	m	struct:lfs_dir
+id	src/littlefs/lfs.h	/^    uint16_t id;$/;"	m	struct:lfs_file
+id	src/littlefs/scripts/readmdir.py	/^    def id(self):$/;"	m	class:Tag
+idrepr	src/littlefs/scripts/readmdir.py	/^    def idrepr(self):$/;"	m	class:Tag
+ignoreNameString	mklittlefs/tclap/Arg.h	/^		static const std::string ignoreNameString() { return "ignore_rest"; }$/;"	f	class:TCLAP::Arg
+ignoreRest	mklittlefs/tclap/Arg.h	/^		static bool ignoreRest() { return ignoreRestRef(); }$/;"	f	class:TCLAP::Arg
+ignoreRestRef	mklittlefs/tclap/Arg.h	/^		static bool& ignoreRestRef() { static bool ign = false; return ign; }$/;"	f	class:TCLAP::Arg
+ignored_file_names	mklittlefs/main.cpp	/^static const char* ignored_file_names[] = {$/;"	v	file:
+io	src/littlefs/scripts/readtree.py	/^import io$/;"	i
+io	src/littlefs/scripts/test.py	/^import io$/;"	i
+isIgnoreable	mklittlefs/tclap/Arg.h	/^inline bool Arg::isIgnoreable() const { return _ignoreable; }$/;"	f	class:TCLAP::Arg
+isRequired	mklittlefs/tclap/Arg.h	/^inline bool Arg::isRequired() const { return _required; }$/;"	f	class:TCLAP::Arg
+isRequired	mklittlefs/tclap/MultiArg.h	/^bool MultiArg<T>::isRequired() const$/;"	f	class:TCLAP::MultiArg
+isSet	mklittlefs/tclap/Arg.h	/^inline bool Arg::isSet() const$/;"	f	class:TCLAP::Arg
+isValueRequired	mklittlefs/tclap/Arg.h	/^inline bool Arg::isValueRequired() const { return _valueRequired; }$/;"	f	class:TCLAP::Arg
+is_	src/littlefs/scripts/readmdir.py	/^    def is_(self, type):$/;"	m	class:Tag
+isattr	src/littlefs/scripts/readmdir.py	/^    def isattr(self):$/;"	m	class:Tag
+iscompactable	src/littlefs/scripts/readmdir.py	/^    def iscompactable(self):$/;"	m	class:Tag
+istringstream	mklittlefs/tclap/Arg.h	/^typedef std::istringstream istringstream;$/;"	t
+istringstream	mklittlefs/tclap/Arg.h	/^typedef std::istrstream istringstream;$/;"	t
+isunique	src/littlefs/scripts/readmdir.py	/^    def isunique(self):$/;"	m	class:Tag
+isvalid	src/littlefs/scripts/readmdir.py	/^    def isvalid(self):$/;"	m	class:Tag
+it	src/littlefs/scripts/code.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/data.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/readmdir.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/readtree.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/stack.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/structs.py	/^import itertools as it$/;"	i
+it	src/littlefs/scripts/test.py	/^import itertools as it$/;"	i
+iterator	mklittlefs/tclap/MultiArg.h	/^	typedef typename container_type::iterator iterator;$/;"	t	class:TCLAP::MultiArg
+itertools	src/littlefs/scripts/prefix.py	/^import itertools$/;"	i
+json	src/littlefs/scripts/readtree.py	/^import json$/;"	i
+lastCombined	mklittlefs/tclap/SwitchArg.h	/^inline bool SwitchArg::lastCombined(std::string& combinedSwitches ) $/;"	f	class:TCLAP::SwitchArg
+lfs	src/littlefs/lfs.c	/^    lfs_t *lfs;$/;"	m	struct:lfs_dir_commit_commit	file:
+lfs	src/littlefs/lfs.c	/^    lfs_t *lfs;$/;"	m	struct:lfs_dir_find_match	file:
+lfs	src/littlefs/lfs.c	/^    lfs_t *lfs;$/;"	m	struct:lfs_fs_parent_match	file:
+lfs	src/littlefs/lfs.h	/^typedef struct lfs {$/;"	s
+lfs1	src/littlefs/lfs.c	/^typedef struct lfs1 {$/;"	s	file:
+lfs1	src/littlefs/lfs.h	/^    struct lfs1 *lfs1;$/;"	m	struct:lfs	typeref:struct:lfs::lfs1
+lfs1_bd_crc	src/littlefs/lfs.c	/^static int lfs1_bd_crc(lfs_t *lfs, lfs_block_t block,$/;"	f	file:
+lfs1_bd_read	src/littlefs/lfs.c	/^static int lfs1_bd_read(lfs_t *lfs, lfs_block_t block,$/;"	f	file:
+lfs1_crc	src/littlefs/lfs.c	/^static void lfs1_crc(uint32_t *crc, const void *buffer, size_t size) {$/;"	f	file:
+lfs1_dir	src/littlefs/lfs.c	/^typedef struct lfs1_dir {$/;"	s	file:
+lfs1_dir_fetch	src/littlefs/lfs.c	/^static int lfs1_dir_fetch(lfs_t *lfs,$/;"	f	file:
+lfs1_dir_fromle32	src/littlefs/lfs.c	/^static void lfs1_dir_fromle32(struct lfs1_disk_dir *d) {$/;"	f	file:
+lfs1_dir_next	src/littlefs/lfs.c	/^static int lfs1_dir_next(lfs_t *lfs, lfs1_dir_t *dir, lfs1_entry_t *entry) {$/;"	f	file:
+lfs1_dir_t	src/littlefs/lfs.c	/^} lfs1_dir_t;$/;"	t	typeref:struct:lfs1_dir	file:
+lfs1_dir_tole32	src/littlefs/lfs.c	/^static void lfs1_dir_tole32(struct lfs1_disk_dir *d) {$/;"	f	file:
+lfs1_disk_dir	src/littlefs/lfs.c	/^    struct lfs1_disk_dir {$/;"	s	struct:lfs1_dir	file:
+lfs1_disk_entry	src/littlefs/lfs.c	/^    struct lfs1_disk_entry {$/;"	s	struct:lfs1_entry	file:
+lfs1_disk_superblock	src/littlefs/lfs.c	/^    struct lfs1_disk_superblock {$/;"	s	struct:lfs1_superblock	file:
+lfs1_entry	src/littlefs/lfs.c	/^typedef struct lfs1_entry {$/;"	s	file:
+lfs1_entry_fromle32	src/littlefs/lfs.c	/^static void lfs1_entry_fromle32(struct lfs1_disk_entry *d) {$/;"	f	file:
+lfs1_entry_size	src/littlefs/lfs.c	/^static inline lfs_size_t lfs1_entry_size(const lfs1_entry_t *entry) {$/;"	f	file:
+lfs1_entry_t	src/littlefs/lfs.c	/^} lfs1_entry_t;$/;"	t	typeref:struct:lfs1_entry	file:
+lfs1_entry_tole32	src/littlefs/lfs.c	/^static void lfs1_entry_tole32(struct lfs1_disk_entry *d) {$/;"	f	file:
+lfs1_mount	src/littlefs/lfs.c	/^static int lfs1_mount(lfs_t *lfs, struct lfs1 *lfs1,$/;"	f	file:
+lfs1_moved	src/littlefs/lfs.c	/^static int lfs1_moved(lfs_t *lfs, const void *e) {$/;"	f	file:
+lfs1_superblock	src/littlefs/lfs.c	/^typedef struct lfs1_superblock {$/;"	s	file:
+lfs1_superblock_fromle32	src/littlefs/lfs.c	/^static void lfs1_superblock_fromle32(struct lfs1_disk_superblock *d) {$/;"	f	file:
+lfs1_superblock_t	src/littlefs/lfs.c	/^} lfs1_superblock_t;$/;"	t	typeref:struct:lfs1_superblock	file:
+lfs1_t	src/littlefs/lfs.c	/^} lfs1_t;$/;"	t	typeref:struct:lfs1	file:
+lfs1_traverse	src/littlefs/lfs.c	/^int lfs1_traverse(lfs_t *lfs, int (*cb)(void*, lfs_block_t), void *data) {$/;"	f
+lfs1_type	src/littlefs/lfs.c	/^enum lfs1_type {$/;"	g	file:
+lfs1_unmount	src/littlefs/lfs.c	/^static int lfs1_unmount(lfs_t *lfs) {$/;"	f	file:
+lfs_aligndown	src/lfs_config.h	/^static inline uint32_t lfs_aligndown(uint32_t a, uint32_t alignment) {$/;"	f
+lfs_aligndown	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_aligndown(uint32_t a, uint32_t alignment) {$/;"	f
+lfs_alignup	src/lfs_config.h	/^static inline uint32_t lfs_alignup(uint32_t a, uint32_t alignment) {$/;"	f
+lfs_alignup	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_alignup(uint32_t a, uint32_t alignment) {$/;"	f
+lfs_alloc	src/littlefs/lfs.c	/^static int lfs_alloc(lfs_t *lfs, lfs_block_t *block) {$/;"	f	file:
+lfs_alloc_ack	src/littlefs/lfs.c	/^static void lfs_alloc_ack(lfs_t *lfs) {$/;"	f	file:
+lfs_alloc_drop	src/littlefs/lfs.c	/^static void lfs_alloc_drop(lfs_t *lfs) {$/;"	f	file:
+lfs_alloc_lookahead	src/littlefs/lfs.c	/^static int lfs_alloc_lookahead(void *p, lfs_block_t block) {$/;"	f	file:
+lfs_attr	src/littlefs/lfs.h	/^struct lfs_attr {$/;"	s
+lfs_bd_cmp	src/littlefs/lfs.c	/^static int lfs_bd_cmp(lfs_t *lfs,$/;"	f	file:
+lfs_bd_erase	src/littlefs/lfs.c	/^static int lfs_bd_erase(lfs_t *lfs, lfs_block_t block) {$/;"	f	file:
+lfs_bd_flush	src/littlefs/lfs.c	/^static int lfs_bd_flush(lfs_t *lfs,$/;"	f	file:
+lfs_bd_prog	src/littlefs/lfs.c	/^static int lfs_bd_prog(lfs_t *lfs,$/;"	f	file:
+lfs_bd_read	src/littlefs/lfs.c	/^static int lfs_bd_read(lfs_t *lfs,$/;"	f	file:
+lfs_bd_sync	src/littlefs/lfs.c	/^static int lfs_bd_sync(lfs_t *lfs,$/;"	f	file:
+lfs_block_t	src/littlefs/lfs.h	/^typedef uint32_t lfs_block_t;$/;"	t
+lfs_cache	src/littlefs/lfs.h	/^typedef struct lfs_cache {$/;"	s
+lfs_cache_drop	src/littlefs/lfs.c	/^static inline void lfs_cache_drop(lfs_t *lfs, lfs_cache_t *rcache) {$/;"	f	file:
+lfs_cache_t	src/littlefs/lfs.h	/^} lfs_cache_t;$/;"	t	typeref:struct:lfs_cache
+lfs_cache_zero	src/littlefs/lfs.c	/^static inline void lfs_cache_zero(lfs_t *lfs, lfs_cache_t *pcache) {$/;"	f	file:
+lfs_commit	src/littlefs/lfs.c	/^struct lfs_commit {$/;"	s	file:
+lfs_commitattr	src/littlefs/lfs.c	/^static int lfs_commitattr(lfs_t *lfs, const char *path,$/;"	f	file:
+lfs_config	src/littlefs/lfs.h	/^struct lfs_config {$/;"	s
+lfs_crc	src/lfs_config.c	/^uint32_t lfs_crc(uint32_t crc, const void *buffer, size_t size) {$/;"	f
+lfs_crc	src/littlefs/lfs_util.c	/^uint32_t lfs_crc(uint32_t crc, const void *buffer, size_t size) {$/;"	f
+lfs_ctz	src/lfs_config.h	/^static inline uint32_t lfs_ctz(uint32_t a) {$/;"	f
+lfs_ctz	src/littlefs/lfs.h	/^    struct lfs_ctz {$/;"	s	struct:lfs_file
+lfs_ctz	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_ctz(uint32_t a) {$/;"	f
+lfs_ctz_extend	src/littlefs/lfs.c	/^static int lfs_ctz_extend(lfs_t *lfs,$/;"	f	file:
+lfs_ctz_find	src/littlefs/lfs.c	/^static int lfs_ctz_find(lfs_t *lfs,$/;"	f	file:
+lfs_ctz_fromle32	src/littlefs/lfs.c	/^static void lfs_ctz_fromle32(struct lfs_ctz *ctz) {$/;"	f	file:
+lfs_ctz_index	src/littlefs/lfs.c	/^static int lfs_ctz_index(lfs_t *lfs, lfs_off_t *off) {$/;"	f	file:
+lfs_ctz_tole32	src/littlefs/lfs.c	/^static void lfs_ctz_tole32(struct lfs_ctz *ctz) {$/;"	f	file:
+lfs_ctz_traverse	src/littlefs/lfs.c	/^static int lfs_ctz_traverse(lfs_t *lfs,$/;"	f	file:
+lfs_deinit	src/littlefs/lfs.c	/^static int lfs_deinit(lfs_t *lfs) {$/;"	f	file:
+lfs_dir	src/littlefs/lfs.h	/^typedef struct lfs_dir {$/;"	s
+lfs_dir_alloc	src/littlefs/lfs.c	/^static int lfs_dir_alloc(lfs_t *lfs, lfs_mdir_t *dir) {$/;"	f	file:
+lfs_dir_close	src/littlefs/lfs.c	/^int lfs_dir_close(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f
+lfs_dir_commit	src/littlefs/lfs.c	/^static int lfs_dir_commit(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_commit_commit	src/littlefs/lfs.c	/^static int lfs_dir_commit_commit(void *p, lfs_tag_t tag, const void *buffer) {$/;"	f	file:
+lfs_dir_commit_commit	src/littlefs/lfs.c	/^struct lfs_dir_commit_commit {$/;"	s	file:
+lfs_dir_commit_size	src/littlefs/lfs.c	/^static int lfs_dir_commit_size(void *p, lfs_tag_t tag, const void *buffer) {$/;"	f	file:
+lfs_dir_commitattr	src/littlefs/lfs.c	/^static int lfs_dir_commitattr(lfs_t *lfs, struct lfs_commit *commit,$/;"	f	file:
+lfs_dir_commitcrc	src/littlefs/lfs.c	/^static int lfs_dir_commitcrc(lfs_t *lfs, struct lfs_commit *commit) {$/;"	f	file:
+lfs_dir_commitprog	src/littlefs/lfs.c	/^static int lfs_dir_commitprog(lfs_t *lfs, struct lfs_commit *commit,$/;"	f	file:
+lfs_dir_compact	src/littlefs/lfs.c	/^static int lfs_dir_compact(lfs_t *lfs,$/;"	f	file:
+lfs_dir_drop	src/littlefs/lfs.c	/^static int lfs_dir_drop(lfs_t *lfs, lfs_mdir_t *dir, lfs_mdir_t *tail) {$/;"	f	file:
+lfs_dir_fetch	src/littlefs/lfs.c	/^static int lfs_dir_fetch(lfs_t *lfs,$/;"	f	file:
+lfs_dir_fetchmatch	src/littlefs/lfs.c	/^static lfs_stag_t lfs_dir_fetchmatch(lfs_t *lfs,$/;"	f	file:
+lfs_dir_find	src/littlefs/lfs.c	/^static lfs_stag_t lfs_dir_find(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_find_match	src/littlefs/lfs.c	/^static int lfs_dir_find_match(void *data,$/;"	f	file:
+lfs_dir_find_match	src/littlefs/lfs.c	/^struct lfs_dir_find_match {$/;"	s	file:
+lfs_dir_get	src/littlefs/lfs.c	/^static lfs_stag_t lfs_dir_get(lfs_t *lfs, const lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_getgstate	src/littlefs/lfs.c	/^static int lfs_dir_getgstate(lfs_t *lfs, const lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_getinfo	src/littlefs/lfs.c	/^static int lfs_dir_getinfo(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_getread	src/littlefs/lfs.c	/^static int lfs_dir_getread(lfs_t *lfs, const lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_getslice	src/littlefs/lfs.c	/^static lfs_stag_t lfs_dir_getslice(lfs_t *lfs, const lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_needsrelocation	src/littlefs/lfs.c	/^static bool lfs_dir_needsrelocation(lfs_t *lfs, lfs_mdir_t *dir) {$/;"	f	file:
+lfs_dir_open	src/littlefs/lfs.c	/^int lfs_dir_open(lfs_t *lfs, lfs_dir_t *dir, const char *path) {$/;"	f
+lfs_dir_orphaningcommit	src/littlefs/lfs.c	/^static int lfs_dir_orphaningcommit(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_rawclose	src/littlefs/lfs.c	/^static int lfs_dir_rawclose(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f	file:
+lfs_dir_rawopen	src/littlefs/lfs.c	/^static int lfs_dir_rawopen(lfs_t *lfs, lfs_dir_t *dir, const char *path) {$/;"	f	file:
+lfs_dir_rawread	src/littlefs/lfs.c	/^static int lfs_dir_rawread(lfs_t *lfs, lfs_dir_t *dir, struct lfs_info *info) {$/;"	f	file:
+lfs_dir_rawrewind	src/littlefs/lfs.c	/^static int lfs_dir_rawrewind(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f	file:
+lfs_dir_rawseek	src/littlefs/lfs.c	/^static int lfs_dir_rawseek(lfs_t *lfs, lfs_dir_t *dir, lfs_off_t off) {$/;"	f	file:
+lfs_dir_rawtell	src/littlefs/lfs.c	/^static lfs_soff_t lfs_dir_rawtell(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f	file:
+lfs_dir_read	src/littlefs/lfs.c	/^int lfs_dir_read(lfs_t *lfs, lfs_dir_t *dir, struct lfs_info *info) {$/;"	f
+lfs_dir_relocatingcommit	src/littlefs/lfs.c	/^static int lfs_dir_relocatingcommit(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_rewind	src/littlefs/lfs.c	/^int lfs_dir_rewind(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f
+lfs_dir_seek	src/littlefs/lfs.c	/^int lfs_dir_seek(lfs_t *lfs, lfs_dir_t *dir, lfs_off_t off) {$/;"	f
+lfs_dir_split	src/littlefs/lfs.c	/^static int lfs_dir_split(lfs_t *lfs,$/;"	f	file:
+lfs_dir_splittingcompact	src/littlefs/lfs.c	/^static int lfs_dir_splittingcompact(lfs_t *lfs, lfs_mdir_t *dir,$/;"	f	file:
+lfs_dir_t	src/littlefs/lfs.h	/^} lfs_dir_t;$/;"	t	typeref:struct:lfs_dir
+lfs_dir_tell	src/littlefs/lfs.c	/^lfs_soff_t lfs_dir_tell(lfs_t *lfs, lfs_dir_t *dir) {$/;"	f
+lfs_dir_traverse	src/littlefs/lfs.c	/^static int lfs_dir_traverse(lfs_t *lfs,$/;"	f	file:
+lfs_dir_traverse	src/littlefs/lfs.c	/^struct lfs_dir_traverse {$/;"	s	file:
+lfs_dir_traverse_filter	src/littlefs/lfs.c	/^static int lfs_dir_traverse_filter(void *p,$/;"	f	file:
+lfs_diskoff	src/littlefs/lfs.c	/^struct lfs_diskoff {$/;"	s	file:
+lfs_errno_remap	src/esp_littlefs.c	/^static int lfs_errno_remap(enum lfs_error err) {$/;"	f	file:
+lfs_error	src/littlefs/lfs.h	/^enum lfs_error {$/;"	g
+lfs_file	src/littlefs/lfs.h	/^typedef struct lfs_file {$/;"	s
+lfs_file_close	src/littlefs/lfs.c	/^int lfs_file_close(lfs_t *lfs, lfs_file_t *file) {$/;"	f
+lfs_file_config	src/littlefs/lfs.h	/^struct lfs_file_config {$/;"	s
+lfs_file_flush	src/littlefs/lfs.c	/^static int lfs_file_flush(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_flushedread	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_file_flushedread(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_flushedwrite	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_file_flushedwrite(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_open	src/littlefs/lfs.c	/^int lfs_file_open(lfs_t *lfs, lfs_file_t *file, const char *path, int flags) {$/;"	f
+lfs_file_opencfg	src/littlefs/lfs.c	/^int lfs_file_opencfg(lfs_t *lfs, lfs_file_t *file,$/;"	f
+lfs_file_outline	src/littlefs/lfs.c	/^static int lfs_file_outline(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawclose	src/littlefs/lfs.c	/^static int lfs_file_rawclose(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawopen	src/littlefs/lfs.c	/^static int lfs_file_rawopen(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_rawopencfg	src/littlefs/lfs.c	/^static int lfs_file_rawopencfg(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_rawread	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_file_rawread(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_rawrewind	src/littlefs/lfs.c	/^static int lfs_file_rawrewind(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawseek	src/littlefs/lfs.c	/^static lfs_soff_t lfs_file_rawseek(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_rawsize	src/littlefs/lfs.c	/^static lfs_soff_t lfs_file_rawsize(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawsync	src/littlefs/lfs.c	/^static int lfs_file_rawsync(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawtell	src/littlefs/lfs.c	/^static lfs_soff_t lfs_file_rawtell(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rawtruncate	src/littlefs/lfs.c	/^static int lfs_file_rawtruncate(lfs_t *lfs, lfs_file_t *file, lfs_off_t size) {$/;"	f	file:
+lfs_file_rawwrite	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_file_rawwrite(lfs_t *lfs, lfs_file_t *file,$/;"	f	file:
+lfs_file_read	src/littlefs/lfs.c	/^lfs_ssize_t lfs_file_read(lfs_t *lfs, lfs_file_t *file,$/;"	f
+lfs_file_relocate	src/littlefs/lfs.c	/^static int lfs_file_relocate(lfs_t *lfs, lfs_file_t *file) {$/;"	f	file:
+lfs_file_rewind	src/littlefs/lfs.c	/^int lfs_file_rewind(lfs_t *lfs, lfs_file_t *file) {$/;"	f
+lfs_file_seek	src/littlefs/lfs.c	/^lfs_soff_t lfs_file_seek(lfs_t *lfs, lfs_file_t *file,$/;"	f
+lfs_file_size	src/littlefs/lfs.c	/^lfs_soff_t lfs_file_size(lfs_t *lfs, lfs_file_t *file) {$/;"	f
+lfs_file_sync	src/littlefs/lfs.c	/^int lfs_file_sync(lfs_t *lfs, lfs_file_t *file) {$/;"	f
+lfs_file_t	src/littlefs/lfs.h	/^} lfs_file_t;$/;"	t	typeref:struct:lfs_file
+lfs_file_tell	src/littlefs/lfs.c	/^lfs_soff_t lfs_file_tell(lfs_t *lfs, lfs_file_t *file) {$/;"	f
+lfs_file_truncate	src/littlefs/lfs.c	/^int lfs_file_truncate(lfs_t *lfs, lfs_file_t *file, lfs_off_t size) {$/;"	f
+lfs_file_write	src/littlefs/lfs.c	/^lfs_ssize_t lfs_file_write(lfs_t *lfs, lfs_file_t *file,$/;"	f
+lfs_filebd	src/littlefs/bd/lfs_filebd.h	/^typedef struct lfs_filebd {$/;"	s
+lfs_filebd_config	src/littlefs/bd/lfs_filebd.h	/^struct lfs_filebd_config {$/;"	s
+lfs_filebd_create	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_create(const struct lfs_config *cfg, const char *path) {$/;"	f
+lfs_filebd_createcfg	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_createcfg(const struct lfs_config *cfg, const char *path,$/;"	f
+lfs_filebd_destroy	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_destroy(const struct lfs_config *cfg) {$/;"	f
+lfs_filebd_erase	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_erase(const struct lfs_config *cfg, lfs_block_t block) {$/;"	f
+lfs_filebd_prog	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_prog(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_filebd_read	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_read(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_filebd_sync	src/littlefs/bd/lfs_filebd.c	/^int lfs_filebd_sync(const struct lfs_config *cfg) {$/;"	f
+lfs_filebd_t	src/littlefs/bd/lfs_filebd.h	/^} lfs_filebd_t;$/;"	t	typeref:struct:lfs_filebd
+lfs_flash_erase	mklittlefs/main.cpp	/^int lfs_flash_erase(const struct lfs_config *c, lfs_block_t block)$/;"	f
+lfs_flash_prog	mklittlefs/main.cpp	/^int lfs_flash_prog(const struct lfs_config *c, lfs_block_t block, lfs_off_t off, const void *buffer, lfs_size_t size)$/;"	f
+lfs_flash_read	mklittlefs/main.cpp	/^int lfs_flash_read(const struct lfs_config *c, lfs_block_t block, lfs_off_t off, void *buffer, lfs_size_t size)$/;"	f
+lfs_flash_sync	mklittlefs/main.cpp	/^int lfs_flash_sync(const struct lfs_config *c) {$/;"	f
+lfs_format	src/littlefs/lfs.c	/^int lfs_format(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f
+lfs_free	src/lfs_config.h	/^static inline void lfs_free(void *p) {$/;"	f
+lfs_free	src/littlefs/lfs.h	/^    struct lfs_free {$/;"	s	struct:lfs
+lfs_free	src/littlefs/lfs_util.h	/^static inline void lfs_free(void *p) {$/;"	f
+lfs_frombe32	src/lfs_config.h	/^static inline uint32_t lfs_frombe32(uint32_t a) {$/;"	f
+lfs_frombe32	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_frombe32(uint32_t a) {$/;"	f
+lfs_fromle32	src/lfs_config.h	/^static inline uint32_t lfs_fromle32(uint32_t a) {$/;"	f
+lfs_fromle32	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_fromle32(uint32_t a) {$/;"	f
+lfs_fs_demove	src/littlefs/lfs.c	/^static int lfs_fs_demove(lfs_t *lfs) {$/;"	f	file:
+lfs_fs_deorphan	src/littlefs/lfs.c	/^static int lfs_fs_deorphan(lfs_t *lfs, bool powerloss) {$/;"	f	file:
+lfs_fs_forceconsistency	src/littlefs/lfs.c	/^static int lfs_fs_forceconsistency(lfs_t *lfs) {$/;"	f	file:
+lfs_fs_parent	src/littlefs/lfs.c	/^static lfs_stag_t lfs_fs_parent(lfs_t *lfs, const lfs_block_t pair[2],$/;"	f	file:
+lfs_fs_parent_match	src/littlefs/lfs.c	/^static int lfs_fs_parent_match(void *data,$/;"	f	file:
+lfs_fs_parent_match	src/littlefs/lfs.c	/^struct lfs_fs_parent_match {$/;"	s	file:
+lfs_fs_pred	src/littlefs/lfs.c	/^static int lfs_fs_pred(lfs_t *lfs,$/;"	f	file:
+lfs_fs_prepmove	src/littlefs/lfs.c	/^static void lfs_fs_prepmove(lfs_t *lfs,$/;"	f	file:
+lfs_fs_preporphans	src/littlefs/lfs.c	/^static int lfs_fs_preporphans(lfs_t *lfs, int8_t orphans) {$/;"	f	file:
+lfs_fs_rawsize	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_fs_rawsize(lfs_t *lfs) {$/;"	f	file:
+lfs_fs_rawtraverse	src/littlefs/lfs.c	/^int lfs_fs_rawtraverse(lfs_t *lfs,$/;"	f
+lfs_fs_size	src/littlefs/lfs.c	/^lfs_ssize_t lfs_fs_size(lfs_t *lfs) {$/;"	f
+lfs_fs_size_count	src/littlefs/lfs.c	/^static int lfs_fs_size_count(void *p, lfs_block_t block) {$/;"	f	file:
+lfs_fs_traverse	src/littlefs/lfs.c	/^int lfs_fs_traverse(lfs_t *lfs, int (*cb)(void *, lfs_block_t), void *data) {$/;"	f
+lfs_getattr	src/littlefs/lfs.c	/^lfs_ssize_t lfs_getattr(lfs_t *lfs, const char *path,$/;"	f
+lfs_gstate	src/littlefs/lfs.h	/^typedef struct lfs_gstate {$/;"	s
+lfs_gstate_fromle32	src/littlefs/lfs.c	/^static inline void lfs_gstate_fromle32(lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_getorphans	src/littlefs/lfs.c	/^static inline uint8_t lfs_gstate_getorphans(const lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_hasmove	src/littlefs/lfs.c	/^static inline bool lfs_gstate_hasmove(const lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_hasmovehere	src/littlefs/lfs.c	/^static inline bool lfs_gstate_hasmovehere(const lfs_gstate_t *a,$/;"	f	file:
+lfs_gstate_hasorphans	src/littlefs/lfs.c	/^static inline bool lfs_gstate_hasorphans(const lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_iszero	src/littlefs/lfs.c	/^static inline bool lfs_gstate_iszero(const lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_t	src/littlefs/lfs.h	/^} lfs_gstate_t;$/;"	t	typeref:struct:lfs_gstate
+lfs_gstate_tole32	src/littlefs/lfs.c	/^static inline void lfs_gstate_tole32(lfs_gstate_t *a) {$/;"	f	file:
+lfs_gstate_xor	src/littlefs/lfs.c	/^static inline void lfs_gstate_xor(lfs_gstate_t *a, const lfs_gstate_t *b) {$/;"	f	file:
+lfs_info	src/littlefs/lfs.h	/^struct lfs_info {$/;"	s
+lfs_init	src/littlefs/lfs.c	/^static int lfs_init(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f	file:
+lfs_malloc	src/lfs_config.h	/^static inline void *lfs_malloc(size_t size) {$/;"	f
+lfs_malloc	src/littlefs/lfs_util.h	/^static inline void *lfs_malloc(size_t size) {$/;"	f
+lfs_mattr	src/littlefs/lfs.c	/^struct lfs_mattr {$/;"	s	file:
+lfs_max	src/lfs_config.h	/^static inline uint32_t lfs_max(uint32_t a, uint32_t b) {$/;"	f
+lfs_max	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_max(uint32_t a, uint32_t b) {$/;"	f
+lfs_mdir	src/littlefs/lfs.h	/^typedef struct lfs_mdir {$/;"	s
+lfs_mdir_t	src/littlefs/lfs.h	/^} lfs_mdir_t;$/;"	t	typeref:struct:lfs_mdir
+lfs_migrate	src/littlefs/lfs.c	/^int lfs_migrate(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f
+lfs_min	src/lfs_config.h	/^static inline uint32_t lfs_min(uint32_t a, uint32_t b) {$/;"	f
+lfs_min	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_min(uint32_t a, uint32_t b) {$/;"	f
+lfs_mkdir	src/littlefs/lfs.c	/^int lfs_mkdir(lfs_t *lfs, const char *path) {$/;"	f
+lfs_mlist	src/littlefs/lfs.h	/^    struct lfs_mlist {$/;"	s	struct:lfs
+lfs_mlist_append	src/littlefs/lfs.c	/^static void lfs_mlist_append(lfs_t *lfs, struct lfs_mlist *mlist) {$/;"	f	file:
+lfs_mlist_isopen	src/littlefs/lfs.c	/^static bool lfs_mlist_isopen(struct lfs_mlist *head,$/;"	f	file:
+lfs_mlist_remove	src/littlefs/lfs.c	/^static void lfs_mlist_remove(lfs_t *lfs, struct lfs_mlist *mlist) {$/;"	f	file:
+lfs_mount	src/littlefs/lfs.c	/^int lfs_mount(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f
+lfs_npw2	src/lfs_config.h	/^static inline uint32_t lfs_npw2(uint32_t a) {$/;"	f
+lfs_npw2	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_npw2(uint32_t a) {$/;"	f
+lfs_off_t	src/littlefs/lfs.h	/^typedef uint32_t lfs_off_t;$/;"	t
+lfs_open_flags	src/littlefs/lfs.h	/^enum lfs_open_flags {$/;"	g
+lfs_pair_cmp	src/littlefs/lfs.c	/^static inline int lfs_pair_cmp($/;"	f	file:
+lfs_pair_fromle32	src/littlefs/lfs.c	/^static inline void lfs_pair_fromle32(lfs_block_t pair[2]) {$/;"	f	file:
+lfs_pair_isnull	src/littlefs/lfs.c	/^static inline bool lfs_pair_isnull(const lfs_block_t pair[2]) {$/;"	f	file:
+lfs_pair_swap	src/littlefs/lfs.c	/^static inline void lfs_pair_swap(lfs_block_t pair[2]) {$/;"	f	file:
+lfs_pair_sync	src/littlefs/lfs.c	/^static inline bool lfs_pair_sync($/;"	f	file:
+lfs_pair_tole32	src/littlefs/lfs.c	/^static inline void lfs_pair_tole32(lfs_block_t pair[2]) {$/;"	f	file:
+lfs_popc	src/lfs_config.h	/^static inline uint32_t lfs_popc(uint32_t a) {$/;"	f
+lfs_popc	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_popc(uint32_t a) {$/;"	f
+lfs_rambd	src/littlefs/bd/lfs_rambd.h	/^typedef struct lfs_rambd {$/;"	s
+lfs_rambd_config	src/littlefs/bd/lfs_rambd.h	/^struct lfs_rambd_config {$/;"	s
+lfs_rambd_create	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_create(const struct lfs_config *cfg) {$/;"	f
+lfs_rambd_createcfg	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_createcfg(const struct lfs_config *cfg,$/;"	f
+lfs_rambd_destroy	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_destroy(const struct lfs_config *cfg) {$/;"	f
+lfs_rambd_erase	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_erase(const struct lfs_config *cfg, lfs_block_t block) {$/;"	f
+lfs_rambd_prog	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_prog(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_rambd_read	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_read(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_rambd_sync	src/littlefs/bd/lfs_rambd.c	/^int lfs_rambd_sync(const struct lfs_config *cfg) {$/;"	f
+lfs_rambd_t	src/littlefs/bd/lfs_rambd.h	/^} lfs_rambd_t;$/;"	t	typeref:struct:lfs_rambd
+lfs_rawformat	src/littlefs/lfs.c	/^static int lfs_rawformat(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f	file:
+lfs_rawgetattr	src/littlefs/lfs.c	/^static lfs_ssize_t lfs_rawgetattr(lfs_t *lfs, const char *path,$/;"	f	file:
+lfs_rawmigrate	src/littlefs/lfs.c	/^static int lfs_rawmigrate(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f	file:
+lfs_rawmkdir	src/littlefs/lfs.c	/^static int lfs_rawmkdir(lfs_t *lfs, const char *path) {$/;"	f	file:
+lfs_rawmount	src/littlefs/lfs.c	/^static int lfs_rawmount(lfs_t *lfs, const struct lfs_config *cfg) {$/;"	f	file:
+lfs_rawremove	src/littlefs/lfs.c	/^static int lfs_rawremove(lfs_t *lfs, const char *path) {$/;"	f	file:
+lfs_rawremoveattr	src/littlefs/lfs.c	/^static int lfs_rawremoveattr(lfs_t *lfs, const char *path, uint8_t type) {$/;"	f	file:
+lfs_rawrename	src/littlefs/lfs.c	/^static int lfs_rawrename(lfs_t *lfs, const char *oldpath, const char *newpath) {$/;"	f	file:
+lfs_rawsetattr	src/littlefs/lfs.c	/^static int lfs_rawsetattr(lfs_t *lfs, const char *path,$/;"	f	file:
+lfs_rawstat	src/littlefs/lfs.c	/^static int lfs_rawstat(lfs_t *lfs, const char *path, struct lfs_info *info) {$/;"	f	file:
+lfs_rawunmount	src/littlefs/lfs.c	/^static int lfs_rawunmount(lfs_t *lfs) {$/;"	f	file:
+lfs_remove	src/littlefs/lfs.c	/^int lfs_remove(lfs_t *lfs, const char *path) {$/;"	f
+lfs_removeattr	src/littlefs/lfs.c	/^int lfs_removeattr(lfs_t *lfs, const char *path, uint8_t type) {$/;"	f
+lfs_rename	src/littlefs/lfs.c	/^int lfs_rename(lfs_t *lfs, const char *oldpath, const char *newpath) {$/;"	f
+lfs_scmp	src/lfs_config.h	/^static inline int lfs_scmp(uint32_t a, uint32_t b) {$/;"	f
+lfs_scmp	src/littlefs/lfs_util.h	/^static inline int lfs_scmp(uint32_t a, uint32_t b) {$/;"	f
+lfs_setattr	src/littlefs/lfs.c	/^int lfs_setattr(lfs_t *lfs, const char *path,$/;"	f
+lfs_size_t	src/littlefs/lfs.h	/^typedef uint32_t lfs_size_t;$/;"	t
+lfs_soff_t	src/littlefs/lfs.h	/^typedef int32_t  lfs_soff_t;$/;"	t
+lfs_ssize_t	src/littlefs/lfs.h	/^typedef int32_t  lfs_ssize_t;$/;"	t
+lfs_stag_t	src/littlefs/lfs.c	/^typedef int32_t lfs_stag_t;$/;"	t	file:
+lfs_stat	src/littlefs/lfs.c	/^int lfs_stat(lfs_t *lfs, const char *path, struct lfs_info *info) {$/;"	f
+lfs_superblock	src/littlefs/lfs.h	/^typedef struct lfs_superblock {$/;"	s
+lfs_superblock_fromle32	src/littlefs/lfs.c	/^static inline void lfs_superblock_fromle32(lfs_superblock_t *superblock) {$/;"	f	file:
+lfs_superblock_t	src/littlefs/lfs.h	/^} lfs_superblock_t;$/;"	t	typeref:struct:lfs_superblock
+lfs_superblock_tole32	src/littlefs/lfs.c	/^static inline void lfs_superblock_tole32(lfs_superblock_t *superblock) {$/;"	f	file:
+lfs_t	src/littlefs/lfs.h	/^} lfs_t;$/;"	t	typeref:struct:lfs
+lfs_tag_chunk	src/littlefs/lfs.c	/^static inline uint8_t lfs_tag_chunk(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_dsize	src/littlefs/lfs.c	/^static inline lfs_size_t lfs_tag_dsize(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_id	src/littlefs/lfs.c	/^static inline uint16_t lfs_tag_id(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_isdelete	src/littlefs/lfs.c	/^static inline bool lfs_tag_isdelete(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_isvalid	src/littlefs/lfs.c	/^static inline bool lfs_tag_isvalid(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_size	src/littlefs/lfs.c	/^static inline lfs_size_t lfs_tag_size(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_splice	src/littlefs/lfs.c	/^static inline int8_t lfs_tag_splice(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_t	src/littlefs/lfs.c	/^typedef uint32_t lfs_tag_t;$/;"	t	file:
+lfs_tag_type1	src/littlefs/lfs.c	/^static inline uint16_t lfs_tag_type1(lfs_tag_t tag) {$/;"	f	file:
+lfs_tag_type3	src/littlefs/lfs.c	/^static inline uint16_t lfs_tag_type3(lfs_tag_t tag) {$/;"	f	file:
+lfs_testbd	src/littlefs/bd/lfs_testbd.h	/^typedef struct lfs_testbd {$/;"	s
+lfs_testbd_badblock_behavior	src/littlefs/bd/lfs_testbd.h	/^enum lfs_testbd_badblock_behavior {$/;"	g
+lfs_testbd_config	src/littlefs/bd/lfs_testbd.h	/^struct lfs_testbd_config {$/;"	s
+lfs_testbd_create	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_create(const struct lfs_config *cfg, const char *path) {$/;"	f
+lfs_testbd_createcfg	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_createcfg(const struct lfs_config *cfg, const char *path,$/;"	f
+lfs_testbd_destroy	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_destroy(const struct lfs_config *cfg) {$/;"	f
+lfs_testbd_erase	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_erase(const struct lfs_config *cfg, lfs_block_t block) {$/;"	f
+lfs_testbd_getwear	src/littlefs/bd/lfs_testbd.c	/^lfs_testbd_swear_t lfs_testbd_getwear(const struct lfs_config *cfg,$/;"	f
+lfs_testbd_prog	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_prog(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_testbd_rawerase	src/littlefs/bd/lfs_testbd.c	/^static int lfs_testbd_rawerase(const struct lfs_config *cfg,$/;"	f	file:
+lfs_testbd_rawprog	src/littlefs/bd/lfs_testbd.c	/^static int lfs_testbd_rawprog(const struct lfs_config *cfg, lfs_block_t block,$/;"	f	file:
+lfs_testbd_rawread	src/littlefs/bd/lfs_testbd.c	/^static int lfs_testbd_rawread(const struct lfs_config *cfg, lfs_block_t block,$/;"	f	file:
+lfs_testbd_rawsync	src/littlefs/bd/lfs_testbd.c	/^static int lfs_testbd_rawsync(const struct lfs_config *cfg) {$/;"	f	file:
+lfs_testbd_read	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_read(const struct lfs_config *cfg, lfs_block_t block,$/;"	f
+lfs_testbd_setwear	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_setwear(const struct lfs_config *cfg,$/;"	f
+lfs_testbd_swear_t	src/littlefs/bd/lfs_testbd.h	/^typedef int32_t  lfs_testbd_swear_t;$/;"	t
+lfs_testbd_sync	src/littlefs/bd/lfs_testbd.c	/^int lfs_testbd_sync(const struct lfs_config *cfg) {$/;"	f
+lfs_testbd_t	src/littlefs/bd/lfs_testbd.h	/^} lfs_testbd_t;$/;"	t	typeref:struct:lfs_testbd
+lfs_testbd_wear_t	src/littlefs/bd/lfs_testbd.h	/^typedef uint32_t lfs_testbd_wear_t;$/;"	t
+lfs_tobe32	src/lfs_config.h	/^static inline uint32_t lfs_tobe32(uint32_t a) {$/;"	f
+lfs_tobe32	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_tobe32(uint32_t a) {$/;"	f
+lfs_tole32	src/lfs_config.h	/^static inline uint32_t lfs_tole32(uint32_t a) {$/;"	f
+lfs_tole32	src/littlefs/lfs_util.h	/^static inline uint32_t lfs_tole32(uint32_t a) {$/;"	f
+lfs_type	src/littlefs/lfs.h	/^enum lfs_type {$/;"	g
+lfs_unmount	src/littlefs/lfs.c	/^int lfs_unmount(lfs_t *lfs) {$/;"	f
+lfs_whence_flags	src/littlefs/lfs.h	/^enum lfs_whence_flags {$/;"	g
+listFiles	mklittlefs/main.cpp	/^void listFiles(const char *path) {$/;"	f
+littlefsFormat	mklittlefs/main.cpp	/^bool littlefsFormat(){$/;"	f
+littlefsMount	mklittlefs/main.cpp	/^bool littlefsMount(){$/;"	f
+littlefsTryMount	mklittlefs/main.cpp	/^int littlefsTryMount() {$/;"	f
+littlefsUnmount	mklittlefs/main.cpp	/^void littlefsUnmount() {$/;"	f
+littlefs_api_erase	src/littlefs_api.c	/^int littlefs_api_erase(const struct lfs_config *c, lfs_block_t block) {$/;"	f
+littlefs_api_prog	src/littlefs_api.c	/^int littlefs_api_prog(const struct lfs_config *c, lfs_block_t block,$/;"	f
+littlefs_api_read	src/littlefs_api.c	/^int littlefs_api_read(const struct lfs_config *c, lfs_block_t block,$/;"	f
+littlefs_api_sync	src/littlefs_api.c	/^int littlefs_api_sync(const struct lfs_config *c) {$/;"	f
+littlefs_base_path	test/test_littlefs.c	/^#define littlefs_base_path /;"	d	file:
+littlefs_test_hello_str	test/test_littlefs.c	/^static const char littlefs_test_hello_str[] = "Hello, World!\\n";$/;"	v	file:
+littlefs_test_partition_label	test/test_littlefs.c	/^static const char littlefs_test_partition_label[] = "flash_test";$/;"	v	file:
+lock	src/littlefs/lfs.h	/^    int (*lock)(const struct lfs_config *c);$/;"	m	struct:lfs_config
+lock	src/littlefs_api.h	/^    SemaphoreHandle_t lock;                   \/*!< FS lock *\/$/;"	m	struct:__anon4
+longID	mklittlefs/tclap/Arg.h	/^inline std::string Arg::longID( const std::string& valueId ) const$/;"	f	class:TCLAP::Arg
+longID	mklittlefs/tclap/MultiArg.h	/^std::string MultiArg<T>::longID(const std::string& val) const$/;"	f	class:TCLAP::MultiArg
+longID	mklittlefs/tclap/MultiSwitchArg.h	/^MultiSwitchArg::longID(const std::string& val) const$/;"	f	class:TCLAP::MultiSwitchArg
+longID	mklittlefs/tclap/UnlabeledMultiArg.h	/^std::string UnlabeledMultiArg<T>::longID(const std::string& val) const$/;"	f	class:TCLAP::UnlabeledMultiArg
+longID	mklittlefs/tclap/UnlabeledValueArg.h	/^std::string UnlabeledValueArg<T>::longID(const std::string& val) const$/;"	f	class:TCLAP::UnlabeledValueArg
+longID	mklittlefs/tclap/ValueArg.h	/^std::string ValueArg<T>::longID(const std::string& val) const$/;"	f	class:TCLAP::ValueArg
+lookahead	src/littlefs/scripts/explode_asserts.py	/^    def lookahead(self, *pattern):$/;"	m	class:Parse
+lookahead_buffer	src/littlefs/lfs.h	/^    void *lookahead_buffer;$/;"	m	struct:lfs_config
+lookahead_size	src/littlefs/lfs.h	/^    lfs_size_t lookahead_size;$/;"	m	struct:lfs_config
+m	src/littlefs/lfs.h	/^        lfs_mdir_t m;$/;"	m	struct:lfs::lfs_mlist
+m	src/littlefs/lfs.h	/^    lfs_mdir_t m;$/;"	m	struct:lfs_dir
+m	src/littlefs/lfs.h	/^    lfs_mdir_t m;$/;"	m	struct:lfs_file
+m	src/littlefs/scripts/stack.py	/^import math as m$/;"	i
+m	src/littlefs/scripts/summary.py	/^import math as m$/;"	i
+magic	src/littlefs/lfs.c	/^        char magic[8];$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+main	mklittlefs/main.cpp	/^int main(int argc, const char * argv[]) {$/;"	f
+main	src/littlefs/scripts/code.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/coverage.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/data.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/explode_asserts.py	/^def main(args):$/;"	f
+main	src/littlefs/scripts/prefix.py	/^def main(from_prefix, to_prefix=None, files=None):$/;"	f
+main	src/littlefs/scripts/readblock.py	/^def main(args):$/;"	f
+main	src/littlefs/scripts/readmdir.py	/^def main(args):$/;"	f
+main	src/littlefs/scripts/readtree.py	/^def main(args):$/;"	f
+main	src/littlefs/scripts/stack.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/structs.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/summary.py	/^def main(**args):$/;"	f
+main	src/littlefs/scripts/test.py	/^def main(**args):$/;"	f
+metadata_max	src/littlefs/lfs.h	/^    lfs_size_t metadata_max;$/;"	m	struct:lfs_config
+missingArgsException	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::missingArgsException()$/;"	f	class:TCLAP::CmdLine
+mkassert	src/littlefs/scripts/explode_asserts.py	/^def mkassert(type, comp, lh, rh, size=None):$/;"	f
+mkdecls	src/littlefs/scripts/explode_asserts.py	/^def mkdecls(outf, maxwidth=16):$/;"	f
+mkdirs	src/esp_littlefs.c	/^static void mkdirs(esp_littlefs_t * efs, const char *dir) {$/;"	f	file:
+mkmask	src/littlefs/scripts/readmdir.py	/^    def mkmask(self):$/;"	m	class:Tag
+mlist	src/littlefs/lfs.h	/^    } *mlist;$/;"	m	struct:lfs	typeref:struct:lfs::lfs_mlist
+name	src/littlefs/lfs.c	/^    const void *name;$/;"	m	struct:lfs_dir_find_match	file:
+name	src/littlefs/lfs.h	/^    char name[LFS_NAME_MAX+1];$/;"	m	struct:lfs_info
+nameStartString	mklittlefs/tclap/Arg.h	/^		static const std::string nameStartString() { return TCLAP_NAMESTARTSTRING; }$/;"	f	class:TCLAP::Arg
+name_max	src/littlefs/lfs.h	/^    lfs_size_t name_max;$/;"	m	struct:lfs
+name_max	src/littlefs/lfs.h	/^    lfs_size_t name_max;$/;"	m	struct:lfs_config
+name_max	src/littlefs/lfs.h	/^    lfs_size_t name_max;$/;"	m	struct:lfs_superblock
+next	src/littlefs/lfs.c	/^    struct lfs1_dir *next;$/;"	m	struct:lfs1_dir	typeref:struct:lfs1_dir::lfs1_dir	file:
+next	src/littlefs/lfs.h	/^        struct lfs_mlist *next;$/;"	m	struct:lfs::lfs_mlist	typeref:struct:lfs::lfs_mlist::lfs_mlist
+next	src/littlefs/lfs.h	/^    struct lfs_dir *next;$/;"	m	struct:lfs_dir	typeref:struct:lfs_dir::lfs_dir
+next	src/littlefs/lfs.h	/^    struct lfs_file *next;$/;"	m	struct:lfs_file	typeref:struct:lfs_file::lfs_file
+next	src/littlefs_api.h	/^    struct _vfs_littlefs_file_t * next;       \/*!< Pointer to next file in Singly Linked List *\/$/;"	m	struct:_vfs_littlefs_file_t	typeref:struct:_vfs_littlefs_file_t::_vfs_littlefs_file_t
+nlen	src/littlefs/lfs.c	/^        uint8_t nlen;$/;"	m	struct:lfs1_entry::lfs1_disk_entry	file:
+nlen	src/littlefs/lfs.c	/^        uint8_t nlen;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs1_dir	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs1_entry	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs1_superblock	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs_commit	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs_dir_traverse	file:
+off	src/littlefs/lfs.c	/^    lfs_off_t off;$/;"	m	struct:lfs_diskoff	file:
+off	src/littlefs/lfs.h	/^        lfs_block_t off;$/;"	m	struct:lfs::lfs_free
+off	src/littlefs/lfs.h	/^    lfs_off_t off;$/;"	m	struct:lfs_cache
+off	src/littlefs/lfs.h	/^    lfs_off_t off;$/;"	m	struct:lfs_file
+off	src/littlefs/lfs.h	/^    lfs_off_t off;$/;"	m	struct:lfs_mdir
+offset	src/esp_littlefs.c	/^    long offset;        \/*!< Offset of the current dirent *\/$/;"	m	struct:__anon12	file:
+openio	src/littlefs/scripts/code.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+openio	src/littlefs/scripts/coverage.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+openio	src/littlefs/scripts/data.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+openio	src/littlefs/scripts/stack.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+openio	src/littlefs/scripts/structs.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+openio	src/littlefs/scripts/summary.py	/^    def openio(path, mode='r'):$/;"	f	function:main
+operator ==	mklittlefs/tclap/Arg.h	/^inline bool Arg::operator==(const Arg& a) const$/;"	f	class:TCLAP::Arg
+operator ==	mklittlefs/tclap/UnlabeledMultiArg.h	/^bool UnlabeledMultiArg<T>::operator==(const Arg& a) const$/;"	f	class:TCLAP::UnlabeledMultiArg
+operator ==	mklittlefs/tclap/UnlabeledValueArg.h	/^bool UnlabeledValueArg<T>::operator==(const Arg& a ) const$/;"	f	class:TCLAP::UnlabeledValueArg
+os	src/littlefs/scripts/code.py	/^import os$/;"	i
+os	src/littlefs/scripts/coverage.py	/^import os$/;"	i
+os	src/littlefs/scripts/data.py	/^import os$/;"	i
+os	src/littlefs/scripts/prefix.py	/^import os$/;"	i
+os	src/littlefs/scripts/prefix.py	/^import os.path$/;"	i
+os	src/littlefs/scripts/stack.py	/^import os$/;"	i
+os	src/littlefs/scripts/structs.py	/^import os$/;"	i
+os	src/littlefs/scripts/summary.py	/^import os$/;"	i
+os	src/littlefs/scripts/test.py	/^import os$/;"	i
+pa	src/littlefs/scripts/explode_asserts.py	/^    def pa(p):$/;"	f	function:passert
+pabool	src/littlefs/scripts/explode_asserts.py	/^    def pabool(p):$/;"	f	function:passert
+paint	src/littlefs/scripts/explode_asserts.py	/^    def paint(p):$/;"	f	function:passert
+pair	src/littlefs/lfs.c	/^    const lfs_block_t pair[2];$/;"	m	struct:lfs_fs_parent_match	file:
+pair	src/littlefs/lfs.c	/^    lfs_block_t pair[2];$/;"	m	struct:lfs1_dir	file:
+pair	src/littlefs/lfs.h	/^    lfs_block_t pair[2];$/;"	m	struct:lfs_gstate
+pair	src/littlefs/lfs.h	/^    lfs_block_t pair[2];$/;"	m	struct:lfs_mdir
+pamem	src/littlefs/scripts/explode_asserts.py	/^    def pamem(p):$/;"	f	function:passert
+parse	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::parse(int argc, const char * const * argv)$/;"	f	class:TCLAP::CmdLine
+parse	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::parse(std::vector<std::string>& args)$/;"	f	class:TCLAP::CmdLine
+parse_vcg	src/littlefs/scripts/stack.py	/^        def parse_vcg(rest):$/;"	f	function:collect.parse_vcg
+parse_vcg	src/littlefs/scripts/stack.py	/^    def parse_vcg(rest):$/;"	f	function:collect
+parser	src/littlefs/scripts/explode_asserts.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	src/littlefs/scripts/readblock.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	src/littlefs/scripts/readmdir.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	src/littlefs/scripts/readtree.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	src/littlefs/scripts/summary.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	src/littlefs/scripts/test.py	/^    parser = argparse.ArgumentParser($/;"	v
+partition	src/littlefs_api.h	/^    const esp_partition_t* partition;         \/*!< The partition on which littlefs is located *\/$/;"	m	struct:__anon4
+partition_label	include/esp_littlefs.h	/^    const char *partition_label;      \/**< Label of partition to use. *\/$/;"	m	struct:__anon3
+passert	src/littlefs/scripts/explode_asserts.py	/^def passert(p):$/;"	f
+pastr	src/littlefs/scripts/explode_asserts.py	/^    def pastr(p):$/;"	f	function:passert
+path	src/esp_littlefs.c	/^    char *path;         \/*!< Requested directory name *\/$/;"	m	struct:__anon12	file:
+path	src/littlefs/scripts/prefix.py	/^import os.path$/;"	i
+path	src/littlefs_api.h	/^    char     * path;$/;"	m	struct:_vfs_littlefs_file_t
+pcTaskGetName	src/esp_littlefs.c	/^#define pcTaskGetName /;"	d	file:
+pcache	src/littlefs/lfs.h	/^    lfs_cache_t pcache;$/;"	m	struct:lfs
+permute	src/littlefs/scripts/test.py	/^    def permute(self, **args):$/;"	m	class:TestSuite
+permute	src/littlefs/scripts/test.py	/^    def permute(self, class_=None, defines={}, permno=None, **_):$/;"	m	class:TestCase
+persist	src/littlefs/bd/lfs_testbd.h	/^    bool persist;$/;"	m	struct:lfs_testbd
+pexpr	src/littlefs/scripts/explode_asserts.py	/^def pexpr(p):$/;"	f
+pexprs	src/littlefs/scripts/explode_asserts.py	/^def pexprs(p):$/;"	f
+pop	src/littlefs/scripts/explode_asserts.py	/^    def pop(self, state):$/;"	m	class:Parse
+pos	src/littlefs/lfs.c	/^    lfs_off_t pos;$/;"	m	struct:lfs1_dir	file:
+pos	src/littlefs/lfs.h	/^    lfs_off_t pos;$/;"	m	struct:lfs_dir
+pos	src/littlefs/lfs.h	/^    lfs_off_t pos;$/;"	m	struct:lfs_file
+power_cycles	src/littlefs/bd/lfs_testbd.h	/^    uint32_t power_cycles;$/;"	m	struct:lfs_testbd
+power_cycles	src/littlefs/bd/lfs_testbd.h	/^    uint32_t power_cycles;$/;"	m	struct:lfs_testbd_config
+printArg	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::printArg(Arg* a)$/;"	f	class:TCLAP::ZshCompletionOutput
+printLongArg	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::printLongArg(Arg* a)$/;"	f	class:TCLAP::DocBookOutput
+printOption	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::printOption(Arg* a, std::string mutex)$/;"	f	class:TCLAP::ZshCompletionOutput
+printShortArg	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::printShortArg(Arg* a)$/;"	f	class:TCLAP::DocBookOutput
+print_deps	src/littlefs/scripts/stack.py	/^        def print_deps(entries, depth, print,$/;"	f	function:main.print_entries
+print_diff_entry	src/littlefs/scripts/code.py	/^    def print_diff_entry(name, old, new, diff, ratio):$/;"	f	function:main
+print_diff_entry	src/littlefs/scripts/coverage.py	/^    def print_diff_entry(name,$/;"	f	function:main
+print_diff_entry	src/littlefs/scripts/data.py	/^    def print_diff_entry(name, old, new, diff, ratio):$/;"	f	function:main
+print_diff_entry	src/littlefs/scripts/stack.py	/^    def print_diff_entry(name,$/;"	f	function:main
+print_diff_entry	src/littlefs/scripts/structs.py	/^    def print_diff_entry(name, old, new, diff, ratio):$/;"	f	function:main
+print_diff_entry	src/littlefs/scripts/summary.py	/^    def print_diff_entry(name, old, new):$/;"	f	function:main
+print_entries	src/littlefs/scripts/code.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entries	src/littlefs/scripts/coverage.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entries	src/littlefs/scripts/data.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entries	src/littlefs/scripts/stack.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entries	src/littlefs/scripts/structs.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entries	src/littlefs/scripts/summary.py	/^    def print_entries(by='name'):$/;"	f	function:main
+print_entry	src/littlefs/scripts/code.py	/^    def print_entry(name, size):$/;"	f	function:main
+print_entry	src/littlefs/scripts/coverage.py	/^    def print_entry(name, hits, count):$/;"	f	function:main
+print_entry	src/littlefs/scripts/data.py	/^    def print_entry(name, size):$/;"	f	function:main
+print_entry	src/littlefs/scripts/stack.py	/^    def print_entry(name, frame, limit):$/;"	f	function:main
+print_entry	src/littlefs/scripts/structs.py	/^    def print_entry(name, size):$/;"	f	function:main
+print_entry	src/littlefs/scripts/summary.py	/^    def print_entry(name, result):$/;"	f	function:main
+print_header	src/littlefs/scripts/code.py	/^    def print_header(by=''):$/;"	f	function:main
+print_header	src/littlefs/scripts/coverage.py	/^    def print_header(by=''):$/;"	f	function:main
+print_header	src/littlefs/scripts/data.py	/^    def print_header(by=''):$/;"	f	function:main
+print_header	src/littlefs/scripts/stack.py	/^    def print_header(by=''):$/;"	f	function:main
+print_header	src/littlefs/scripts/structs.py	/^    def print_header(by=''):$/;"	f	function:main
+print_header	src/littlefs/scripts/summary.py	/^    def print_header(by=''):$/;"	f	function:main
+print_totals	src/littlefs/scripts/code.py	/^    def print_totals():$/;"	f	function:main
+print_totals	src/littlefs/scripts/coverage.py	/^    def print_totals():$/;"	f	function:main
+print_totals	src/littlefs/scripts/data.py	/^    def print_totals():$/;"	f	function:main
+print_totals	src/littlefs/scripts/stack.py	/^    def print_totals():$/;"	f	function:main
+print_totals	src/littlefs/scripts/structs.py	/^    def print_totals():$/;"	f	function:main
+print_totals	src/littlefs/scripts/summary.py	/^    def print_totals():$/;"	f	function:main
+processArg	mklittlefs/tclap/MultiArg.h	/^bool MultiArg<T>::processArg(int *i, std::vector<std::string>& args) $/;"	f	class:TCLAP::MultiArg
+processArg	mklittlefs/tclap/MultiSwitchArg.h	/^inline bool MultiSwitchArg::processArg(int *i, std::vector<std::string>& args)$/;"	f	class:TCLAP::MultiSwitchArg
+processArg	mklittlefs/tclap/SwitchArg.h	/^inline bool SwitchArg::processArg(int *i, std::vector<std::string>& args)$/;"	f	class:TCLAP::SwitchArg
+processArg	mklittlefs/tclap/UnlabeledMultiArg.h	/^bool UnlabeledMultiArg<T>::processArg(int *i, std::vector<std::string>& args) $/;"	f	class:TCLAP::UnlabeledMultiArg
+processArg	mklittlefs/tclap/UnlabeledValueArg.h	/^bool UnlabeledValueArg<T>::processArg(int *i, std::vector<std::string>& args) $/;"	f	class:TCLAP::UnlabeledValueArg
+processArg	mklittlefs/tclap/ValueArg.h	/^bool ValueArg<T>::processArg(int *i, std::vector<std::string>& args)$/;"	f	class:TCLAP::ValueArg
+processArgs	mklittlefs/main.cpp	/^void processArgs(int argc, const char** argv) {$/;"	f
+prog	src/littlefs/lfs.h	/^    int (*prog)(const struct lfs_config *c, lfs_block_t block,$/;"	m	struct:lfs_config
+prog_buffer	src/littlefs/lfs.h	/^    void *prog_buffer;$/;"	m	struct:lfs_config
+prog_size	src/littlefs/lfs.h	/^    lfs_size_t prog_size;$/;"	m	struct:lfs_config
+pstmt	src/littlefs/scripts/explode_asserts.py	/^def pstmt(p):$/;"	f
+ptag	src/littlefs/lfs.c	/^    lfs_tag_t ptag;$/;"	m	struct:lfs_commit	file:
+ptag	src/littlefs/lfs.c	/^    lfs_tag_t ptag;$/;"	m	struct:lfs_dir_traverse	file:
+pty	src/littlefs/scripts/test.py	/^import pty$/;"	i
+push	src/littlefs/scripts/explode_asserts.py	/^    def push(self):$/;"	m	class:Parse
+quoteSpecialChars	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::quoteSpecialChars( std::string& s )$/;"	f	class:TCLAP::ZshCompletionOutput
+ram	src/littlefs/bd/lfs_testbd.h	/^        } ram;$/;"	m	union:lfs_testbd::__anon9	typeref:struct:lfs_testbd::__anon9::__anon11
+rcache	src/littlefs/lfs.h	/^    lfs_cache_t rcache;$/;"	m	struct:lfs
+re	src/littlefs/scripts/code.py	/^import re$/;"	i
+re	src/littlefs/scripts/coverage.py	/^import re$/;"	i
+re	src/littlefs/scripts/data.py	/^import re$/;"	i
+re	src/littlefs/scripts/explode_asserts.py	/^import re$/;"	i
+re	src/littlefs/scripts/prefix.py	/^import re$/;"	i
+re	src/littlefs/scripts/stack.py	/^import re$/;"	i
+re	src/littlefs/scripts/structs.py	/^import re$/;"	i
+re	src/littlefs/scripts/summary.py	/^import re$/;"	i
+re	src/littlefs/scripts/test.py	/^import re$/;"	i
+read	src/littlefs/lfs.h	/^    int (*read)(const struct lfs_config *c, lfs_block_t block,$/;"	m	struct:lfs_config
+read_buffer	src/littlefs/lfs.h	/^    void *read_buffer;$/;"	m	struct:lfs_config
+read_size	src/littlefs/lfs.h	/^    lfs_size_t read_size;$/;"	m	struct:lfs_config
+read_write_task	test/test_littlefs.c	/^static void read_write_task(void* param)$/;"	f	file:
+read_write_test_1	test/test_benchmark.c	/^static void read_write_test_1(const char *mount_pt, uint32_t iter) {$/;"	f	file:
+read_write_test_arg_t	test/test_littlefs.c	/^} read_write_test_arg_t;$/;"	t	typeref:struct:__anon2	file:
+removeChar	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::removeChar( std::string& s, char r)$/;"	f	class:TCLAP::DocBookOutput
+reset	mklittlefs/tclap/Arg.h	/^inline void Arg::reset()$/;"	f	class:TCLAP::Arg
+reset	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::reset()$/;"	f	class:TCLAP::CmdLine
+reset	mklittlefs/tclap/MultiArg.h	/^void MultiArg<T>::reset()$/;"	f	class:TCLAP::MultiArg
+reset	mklittlefs/tclap/MultiSwitchArg.h	/^MultiSwitchArg::reset()$/;"	f	class:TCLAP::MultiSwitchArg
+reset	mklittlefs/tclap/SwitchArg.h	/^inline void SwitchArg::reset()$/;"	f	class:TCLAP::SwitchArg
+reset	mklittlefs/tclap/ValueArg.h	/^void ValueArg<T>::reset()$/;"	f	class:TCLAP::ValueArg
+result	test/test_littlefs.c	/^    int result;$/;"	m	struct:__anon2	file:
+rev	src/littlefs/lfs.c	/^        uint32_t rev;$/;"	m	struct:lfs1_dir::lfs1_disk_dir	file:
+rev	src/littlefs/lfs.h	/^    uint32_t rev;$/;"	m	struct:lfs_mdir
+rmdirs	src/esp_littlefs.c	/^static void rmdirs(esp_littlefs_t * efs, const char *dir) {$/;"	f	file:
+root	src/littlefs/lfs.c	/^        lfs_block_t root[2];$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+root	src/littlefs/lfs.c	/^    lfs_block_t root[2];$/;"	m	struct:lfs1	file:
+root	src/littlefs/lfs.h	/^    lfs_block_t root[2];$/;"	m	struct:lfs
+s16_t	mklittlefs/include/spiffs_config.h	/^typedef int16_t s16_t;$/;"	t
+s32_t	mklittlefs/include/spiffs_config.h	/^typedef int32_t s32_t;$/;"	t
+s8_t	mklittlefs/include/spiffs_config.h	/^typedef int8_t s8_t;$/;"	t
+s_action	mklittlefs/main.cpp	/^static Action s_action = ACTION_NONE;$/;"	v	file:
+s_addAllFiles	mklittlefs/main.cpp	/^static bool s_addAllFiles;$/;"	v	file:
+s_blockSize	mklittlefs/main.cpp	/^static uint32_t s_blockSize;$/;"	v	file:
+s_cfg	mklittlefs/main.cpp	/^static lfs_config s_cfg;$/;"	v	file:
+s_debugLevel	mklittlefs/main.cpp	/^static int s_debugLevel = 0;$/;"	v	file:
+s_dirName	mklittlefs/main.cpp	/^static std::string s_dirName;$/;"	v	file:
+s_flashmem	mklittlefs/main.cpp	/^static std::vector<uint8_t> s_flashmem;$/;"	v	file:
+s_fs	mklittlefs/main.cpp	/^static lfs_t s_fs;$/;"	v	file:
+s_imageName	mklittlefs/main.cpp	/^static std::string s_imageName;$/;"	v	file:
+s_imageSize	mklittlefs/main.cpp	/^static uint32_t s_imageSize;$/;"	v	file:
+s_mounted	mklittlefs/main.cpp	/^bool s_mounted = false;$/;"	v
+s_pageSize	mklittlefs/main.cpp	/^static uint32_t s_pageSize;$/;"	v	file:
+s_wl_handle	test/test_benchmark.c	/^wl_handle_t s_wl_handle = WL_INVALID_HANDLE;$/;"	v
+schunk	src/littlefs/scripts/readmdir.py	/^    def schunk(self):$/;"	m	class:Tag
+seed	src/littlefs/lfs.h	/^    uint32_t seed;$/;"	m	struct:lfs
+seed	test/test_littlefs.c	/^    int seed;$/;"	m	struct:__anon2	file:
+sem_give	src/esp_littlefs.c	/^static inline int sem_give(esp_littlefs_t *efs) {$/;"	f	file:
+sem_take	src/esp_littlefs.c	/^static inline int sem_take(esp_littlefs_t *efs) {$/;"	f	file:
+setDelimiter	mklittlefs/tclap/Arg.h	/^		static void setDelimiter( char c ) { delimiterRef() = c; }$/;"	f	class:TCLAP::Arg
+setExceptionHandling	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::setExceptionHandling(const bool state)$/;"	f	class:TCLAP::CmdLine
+setLfsConfig	mklittlefs/main.cpp	/^void setLfsConfig()$/;"	f
+setOutput	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::setOutput(CmdLineOutput* co)$/;"	f	class:TCLAP::CmdLine
+setRequireLabel	mklittlefs/tclap/Arg.h	/^inline void Arg::setRequireLabel( const std::string& s)$/;"	f	class:TCLAP::Arg
+setup_fat	test/test_benchmark.c	/^static void setup_fat(){$/;"	f	file:
+setup_littlefs	test/test_benchmark.c	/^static void setup_littlefs() {$/;"	f	file:
+setup_spiffs	test/test_benchmark.c	/^static void setup_spiffs(){$/;"	f	file:
+shlex	src/littlefs/scripts/code.py	/^import shlex$/;"	i
+shlex	src/littlefs/scripts/data.py	/^import shlex$/;"	i
+shlex	src/littlefs/scripts/structs.py	/^import shlex$/;"	i
+shlex	src/littlefs/scripts/test.py	/^import shlex$/;"	i
+shortID	mklittlefs/tclap/Arg.h	/^inline std::string Arg::shortID( const std::string& valueId ) const$/;"	f	class:TCLAP::Arg
+shortID	mklittlefs/tclap/MultiArg.h	/^std::string MultiArg<T>::shortID(const std::string& val) const$/;"	f	class:TCLAP::MultiArg
+shortID	mklittlefs/tclap/MultiSwitchArg.h	/^MultiSwitchArg::shortID(const std::string& val) const$/;"	f	class:TCLAP::MultiSwitchArg
+shortID	mklittlefs/tclap/UnlabeledMultiArg.h	/^std::string UnlabeledMultiArg<T>::shortID(const std::string& val) const$/;"	f	class:TCLAP::UnlabeledMultiArg
+shortID	mklittlefs/tclap/UnlabeledValueArg.h	/^std::string UnlabeledValueArg<T>::shortID(const std::string& val) const$/;"	f	class:TCLAP::UnlabeledValueArg
+shortID	mklittlefs/tclap/ValueArg.h	/^std::string ValueArg<T>::shortID(const std::string& val) const$/;"	f	class:TCLAP::ValueArg
+shortID	mklittlefs/tclap/ValuesConstraint.h	/^std::string ValuesConstraint<T>::shortID() const$/;"	f	class:TCLAP::ValuesConstraint
+shouldtest	src/littlefs/scripts/test.py	/^    def shouldtest(self, **args):$/;"	m	class:ReentrantTestCase
+shouldtest	src/littlefs/scripts/test.py	/^    def shouldtest(self, **args):$/;"	m	class:TestCase
+shouldtest	src/littlefs/scripts/test.py	/^    def shouldtest(self, **args):$/;"	m	class:ValgrindTestCase
+shutil	src/littlefs/scripts/prefix.py	/^import shutil$/;"	i
+signal	src/littlefs/scripts/test.py	/^import signal$/;"	i
+size	src/littlefs/lfs.c	/^                lfs_size_t size;$/;"	m	struct:lfs1_entry::lfs1_disk_entry::__anon7::__anon8	file:
+size	src/littlefs/lfs.c	/^        lfs_size_t size;$/;"	m	struct:lfs1_dir::lfs1_disk_dir	file:
+size	src/littlefs/lfs.c	/^    lfs_size_t size;$/;"	m	struct:lfs_dir_find_match	file:
+size	src/littlefs/lfs.h	/^        lfs_block_t size;$/;"	m	struct:lfs::lfs_free
+size	src/littlefs/lfs.h	/^        lfs_size_t size;$/;"	m	struct:lfs_file::lfs_ctz
+size	src/littlefs/lfs.h	/^    lfs_size_t size;$/;"	m	struct:lfs_attr
+size	src/littlefs/lfs.h	/^    lfs_size_t size;$/;"	m	struct:lfs_cache
+size	src/littlefs/lfs.h	/^    lfs_size_t size;$/;"	m	struct:lfs_info
+size	src/littlefs/scripts/readmdir.py	/^    def size(self):$/;"	m	class:Tag
+sizerepr	src/littlefs/scripts/readmdir.py	/^    def sizerepr(self):$/;"	m	class:Tag
+sorted_diff_entries	src/littlefs/scripts/code.py	/^    def sorted_diff_entries(entries):$/;"	f	function:main
+sorted_diff_entries	src/littlefs/scripts/coverage.py	/^    def sorted_diff_entries(entries):$/;"	f	function:main
+sorted_diff_entries	src/littlefs/scripts/data.py	/^    def sorted_diff_entries(entries):$/;"	f	function:main
+sorted_diff_entries	src/littlefs/scripts/stack.py	/^    def sorted_diff_entries(entries):$/;"	f	function:main
+sorted_diff_entries	src/littlefs/scripts/structs.py	/^    def sorted_diff_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/code.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/coverage.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/data.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/stack.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/structs.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sorted_entries	src/littlefs/scripts/summary.py	/^    def sorted_entries(entries):$/;"	f	function:main
+sp	src/littlefs/scripts/code.py	/^import subprocess as sp$/;"	i
+sp	src/littlefs/scripts/data.py	/^import subprocess as sp$/;"	i
+sp	src/littlefs/scripts/readblock.py	/^import subprocess as sp$/;"	i
+sp	src/littlefs/scripts/structs.py	/^import subprocess as sp$/;"	i
+sp	src/littlefs/scripts/test.py	/^import subprocess as sp$/;"	i
+spacePrint	mklittlefs/tclap/StdOutput.h	/^inline void StdOutput::spacePrint( std::ostream& os, $/;"	f	class:TCLAP::StdOutput
+spiffs_block_ix	mklittlefs/include/spiffs_config.h	/^typedef u16_t spiffs_block_ix;$/;"	t
+spiffs_obj_id	mklittlefs/include/spiffs_config.h	/^typedef u16_t spiffs_obj_id;$/;"	t
+spiffs_page_ix	mklittlefs/include/spiffs_config.h	/^typedef u16_t spiffs_page_ix;$/;"	t
+spiffs_printf	mklittlefs/include/spiffs_config.h	/^#define spiffs_printf(/;"	d
+spiffs_span_ix	mklittlefs/include/spiffs_config.h	/^typedef u16_t spiffs_span_ix;$/;"	t
+split	src/littlefs/lfs.h	/^    bool split;$/;"	m	struct:lfs_mdir
+struct	src/littlefs/scripts/readmdir.py	/^import struct$/;"	i
+struct	src/littlefs/scripts/readtree.py	/^import struct$/;"	i
+subn	src/littlefs/scripts/prefix.py	/^def subn(from_prefix, to_prefix, name):$/;"	f
+subprocess	src/littlefs/scripts/prefix.py	/^import subprocess$/;"	i
+substituteSpecialChars	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::substituteSpecialChars( std::string& s,$/;"	f	class:TCLAP::DocBookOutput
+sync	src/littlefs/lfs.h	/^    int (*sync)(const struct lfs_config *c);$/;"	m	struct:lfs_config
+sys	src/littlefs/scripts/code.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/coverage.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/data.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/explode_asserts.py	/^import sys$/;"	i
+sys	src/littlefs/scripts/prefix.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/readblock.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/readmdir.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/readmdir.py	/^import sys$/;"	i
+sys	src/littlefs/scripts/readtree.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/readtree.py	/^import sys$/;"	i
+sys	src/littlefs/scripts/stack.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/structs.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/summary.py	/^    import sys$/;"	i
+sys	src/littlefs/scripts/test.py	/^import sys$/;"	i
+tag	src/littlefs/lfs.c	/^    lfs_tag_t tag;$/;"	m	struct:lfs_dir_traverse	file:
+tag	src/littlefs/lfs.c	/^    lfs_tag_t tag;$/;"	m	struct:lfs_mattr	file:
+tag	src/littlefs/lfs.h	/^    uint32_t tag;$/;"	m	struct:lfs_gstate
+tail	src/littlefs/lfs.c	/^        lfs_block_t tail[2];$/;"	m	struct:lfs1_dir::lfs1_disk_dir	file:
+tail	src/littlefs/lfs.h	/^    lfs_block_t tail[2];$/;"	m	struct:lfs_mdir
+tempfile	src/littlefs/scripts/prefix.py	/^import tempfile$/;"	i
+test	src/littlefs/scripts/test.py	/^    def test(self, **args):$/;"	m	class:TestSuite
+test	src/littlefs/scripts/test.py	/^    def test(self, exec=[], **args):$/;"	m	class:ValgrindTestCase
+test	src/littlefs/scripts/test.py	/^    def test(self, exec=[], persist=False, cycles=None,$/;"	m	class:TestCase
+test	src/littlefs/scripts/test.py	/^    def test(self, persist=False, gdb=False, failure=None, **args):$/;"	m	class:ReentrantTestCase
+test_littlefs_concurrent_rw	test/test_littlefs.c	/^static void test_littlefs_concurrent_rw(const char* filename_prefix)$/;"	f	file:
+test_littlefs_create_file_with_text	test/test_littlefs.c	/^static void test_littlefs_create_file_with_text(const char* name, const char* text)$/;"	f	file:
+test_littlefs_open_max_files	test/test_littlefs.c	/^static void test_littlefs_open_max_files(const char* filename_prefix, size_t files_count)$/;"	f	file:
+test_littlefs_overwrite_append	test/test_littlefs.c	/^static void test_littlefs_overwrite_append(const char* filename)$/;"	f	file:
+test_littlefs_read_file	test/test_littlefs.c	/^static void test_littlefs_read_file(const char* filename)$/;"	f	file:
+test_littlefs_read_file_with_offset	test/test_littlefs.c	/^static void test_littlefs_read_file_with_offset(const char *filename)$/;"	f	file:
+test_littlefs_readdir_many_files	test/test_littlefs.c	/^static void test_littlefs_readdir_many_files(const char* dir_prefix)$/;"	f	file:
+test_littlefs_write_file_with_offset	test/test_littlefs.c	/^static void test_littlefs_write_file_with_offset(const char *filename)$/;"	f	file:
+test_setup	test/test_benchmark.c	/^static void test_setup() {$/;"	f	file:
+test_setup	test/test_littlefs.c	/^static void test_setup() {$/;"	f	file:
+test_teardown	test/test_benchmark.c	/^static void test_teardown()$/;"	f	file:
+test_teardown	test/test_littlefs.c	/^static void test_teardown(){$/;"	f	file:
+theDelimiter	mklittlefs/tclap/DocBookOutput.h	/^		char theDelimiter;$/;"	m	class:TCLAP::DocBookOutput
+theDelimiter	mklittlefs/tclap/ZshCompletionOutput.h	/^		char theDelimiter;$/;"	m	class:TCLAP::ZshCompletionOutput
+tmask	src/littlefs/lfs.c	/^    lfs_tag_t tmask;$/;"	m	struct:lfs_dir_traverse	file:
+toString	mklittlefs/tclap/Arg.h	/^inline std::string Arg::toString() const$/;"	f	class:TCLAP::Arg
+toml	src/littlefs/scripts/test.py	/^import toml$/;"	i
+trimFlag	mklittlefs/tclap/Arg.h	/^inline void Arg::trimFlag(std::string& flag, std::string& value) const$/;"	f	class:TCLAP::Arg
+ttag	src/littlefs/lfs.c	/^    lfs_tag_t ttag;$/;"	m	struct:lfs_dir_traverse	file:
+type	src/littlefs/lfs.c	/^        uint8_t type;$/;"	m	struct:lfs1_entry::lfs1_disk_entry	file:
+type	src/littlefs/lfs.c	/^        uint8_t type;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+type	src/littlefs/lfs.h	/^        uint8_t type;$/;"	m	struct:lfs::lfs_mlist
+type	src/littlefs/lfs.h	/^    uint8_t type;$/;"	m	struct:lfs_attr
+type	src/littlefs/lfs.h	/^    uint8_t type;$/;"	m	struct:lfs_dir
+type	src/littlefs/lfs.h	/^    uint8_t type;$/;"	m	struct:lfs_file
+type	src/littlefs/lfs.h	/^    uint8_t type;$/;"	m	struct:lfs_info
+type	src/littlefs/scripts/readmdir.py	/^    def type(self):$/;"	m	class:Tag
+type	src/littlefs/scripts/readtree.py	/^        type=lambda x: int(x, 0),$/;"	v
+type1	src/littlefs/scripts/readmdir.py	/^    def type1(self):$/;"	m	class:Tag
+type3	src/littlefs/scripts/readmdir.py	/^    def type3(self):$/;"	m	class:Tag
+typeDescription	mklittlefs/tclap/ArgException.h	/^		std::string typeDescription() const$/;"	f	class:TCLAP::ArgException
+typerepr	src/littlefs/scripts/readmdir.py	/^    def typerepr(self):$/;"	m	class:Tag
+u	src/littlefs/bd/lfs_testbd.h	/^    } u;$/;"	m	struct:lfs_testbd	typeref:union:lfs_testbd::__anon9
+u	src/littlefs/lfs.c	/^        } u;$/;"	m	struct:lfs1_entry::lfs1_disk_entry	typeref:union:lfs1_entry::lfs1_disk_entry::__anon7	file:
+u16_t	mklittlefs/include/spiffs_config.h	/^typedef uint16_t u16_t;$/;"	t
+u32_t	mklittlefs/include/spiffs_config.h	/^typedef uint32_t u32_t;$/;"	t
+u8_t	mklittlefs/include/spiffs_config.h	/^typedef uint8_t u8_t;$/;"	t
+unlock	src/littlefs/lfs.h	/^    int (*unlock)(const struct lfs_config *c);$/;"	m	struct:lfs_config
+unpackFile	mklittlefs/main.cpp	/^bool unpackFile(const char *lfsDir, lfs_info *littlefsFile, const char *destPath) {$/;"	f
+unpackFiles	mklittlefs/main.cpp	/^bool unpackFiles(std::string sDest) {$/;"	f
+unpackLFSDirFiles	mklittlefs/main.cpp	/^bool unpackLFSDirFiles(std::string sDest, const char *lfsDir) {$/;"	f
+usage	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::usage(CmdLineInterface& _cmd ) $/;"	f	class:TCLAP::DocBookOutput
+usage	mklittlefs/tclap/StdOutput.h	/^inline void StdOutput::usage(CmdLineInterface& _cmd ) $/;"	f	class:TCLAP::StdOutput
+usage	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::usage(CmdLineInterface& _cmd )$/;"	f	class:TCLAP::ZshCompletionOutput
+version	mklittlefs/tclap/DocBookOutput.h	/^inline void DocBookOutput::version(CmdLineInterface& _cmd) $/;"	f	class:TCLAP::DocBookOutput
+version	mklittlefs/tclap/StdOutput.h	/^inline void StdOutput::version(CmdLineInterface& _cmd) $/;"	f	class:TCLAP::StdOutput
+version	mklittlefs/tclap/ZshCompletionOutput.h	/^inline void ZshCompletionOutput::version(CmdLineInterface& _cmd)$/;"	f	class:TCLAP::ZshCompletionOutput
+version	src/littlefs/lfs.c	/^        uint32_t version;$/;"	m	struct:lfs1_superblock::lfs1_disk_superblock	file:
+version	src/littlefs/lfs.h	/^    uint32_t version;$/;"	m	struct:lfs_superblock
+vfs_littlefs_close	src/esp_littlefs.c	/^static int vfs_littlefs_close(void* ctx, int fd) {$/;"	f	file:
+vfs_littlefs_closedir	src/esp_littlefs.c	/^static int vfs_littlefs_closedir(void* ctx, DIR* pdir) {$/;"	f	file:
+vfs_littlefs_dir_t	src/esp_littlefs.c	/^} vfs_littlefs_dir_t;$/;"	t	typeref:struct:__anon12	file:
+vfs_littlefs_fcntl	src/esp_littlefs.c	/^static int vfs_littlefs_fcntl(void* ctx, int fd, int cmd, int arg)$/;"	f	file:
+vfs_littlefs_file_t	src/littlefs_api.h	/^} vfs_littlefs_file_t;$/;"	t	typeref:struct:_vfs_littlefs_file_t
+vfs_littlefs_fstat	src/esp_littlefs.c	/^static int vfs_littlefs_fstat(void* ctx, int fd, struct stat * st) {$/;"	f	file:
+vfs_littlefs_fsync	src/esp_littlefs.c	/^static int vfs_littlefs_fsync(void* ctx, int fd)$/;"	f	file:
+vfs_littlefs_ftruncate	src/esp_littlefs.c	/^static int vfs_littlefs_ftruncate(void *ctx, int fd, off_t size)$/;"	f	file:
+vfs_littlefs_get_mtime	src/esp_littlefs.c	/^static time_t vfs_littlefs_get_mtime(esp_littlefs_t *efs, const char *path)$/;"	f	file:
+vfs_littlefs_lseek	src/esp_littlefs.c	/^static off_t vfs_littlefs_lseek(void* ctx, int fd, off_t offset, int mode) {$/;"	f	file:
+vfs_littlefs_mkdir	src/esp_littlefs.c	/^static int vfs_littlefs_mkdir(void* ctx, const char* name, mode_t mode) {$/;"	f	file:
+vfs_littlefs_open	src/esp_littlefs.c	/^static int vfs_littlefs_open(void* ctx, const char * path, int flags, int mode) {$/;"	f	file:
+vfs_littlefs_opendir	src/esp_littlefs.c	/^static DIR* vfs_littlefs_opendir(void* ctx, const char* name) {$/;"	f	file:
+vfs_littlefs_pread	src/esp_littlefs.c	/^static ssize_t vfs_littlefs_pread(void *ctx, int fd, void *dst, size_t size, off_t offset)$/;"	f	file:
+vfs_littlefs_pwrite	src/esp_littlefs.c	/^static ssize_t vfs_littlefs_pwrite(void *ctx, int fd, const void *src, size_t size, off_t offset)$/;"	f	file:
+vfs_littlefs_read	src/esp_littlefs.c	/^static ssize_t vfs_littlefs_read(void* ctx, int fd, void * dst, size_t size) {$/;"	f	file:
+vfs_littlefs_readdir	src/esp_littlefs.c	/^static struct dirent* vfs_littlefs_readdir(void* ctx, DIR* pdir) {$/;"	f	file:
+vfs_littlefs_readdir_r	src/esp_littlefs.c	/^static int vfs_littlefs_readdir_r(void* ctx, DIR* pdir,$/;"	f	file:
+vfs_littlefs_rename	src/esp_littlefs.c	/^static int vfs_littlefs_rename(void* ctx, const char *src, const char *dst) {$/;"	f	file:
+vfs_littlefs_rmdir	src/esp_littlefs.c	/^static int vfs_littlefs_rmdir(void* ctx, const char* name) {$/;"	f	file:
+vfs_littlefs_seekdir	src/esp_littlefs.c	/^static void vfs_littlefs_seekdir(void* ctx, DIR* pdir, long offset) {$/;"	f	file:
+vfs_littlefs_stat	src/esp_littlefs.c	/^static int vfs_littlefs_stat(void* ctx, const char * path, struct stat * st) {$/;"	f	file:
+vfs_littlefs_telldir	src/esp_littlefs.c	/^static long vfs_littlefs_telldir(void* ctx, DIR* pdir) {$/;"	f	file:
+vfs_littlefs_truncate	src/esp_littlefs.c	/^static ssize_t vfs_littlefs_truncate( void *ctx, const char *path, off_t size )$/;"	f	file:
+vfs_littlefs_unlink	src/esp_littlefs.c	/^static int vfs_littlefs_unlink(void* ctx, const char *path) {$/;"	f	file:
+vfs_littlefs_update_mtime	src/esp_littlefs.c	/^static void vfs_littlefs_update_mtime(esp_littlefs_t *efs, const char *path)$/;"	f	file:
+vfs_littlefs_update_mtime_value	src/esp_littlefs.c	/^static int vfs_littlefs_update_mtime_value(esp_littlefs_t *efs, const char *path, time_t t)$/;"	f	file:
+vfs_littlefs_utime	src/esp_littlefs.c	/^static int vfs_littlefs_utime(void *ctx, const char *path, const struct utimbuf *times)$/;"	f	file:
+vfs_littlefs_write	src/esp_littlefs.c	/^static ssize_t vfs_littlefs_write(void* ctx, int fd, const void * data, size_t size) {$/;"	f	file:
+visit	mklittlefs/tclap/HelpVisitor.h	/^		void visit() { (*_out)->usage(*_cmd); throw ExitException(0); }$/;"	f	class:TCLAP::HelpVisitor
+visit	mklittlefs/tclap/IgnoreRestVisitor.h	/^		void visit() { Arg::beginIgnoring();  }$/;"	f	class:TCLAP::IgnoreRestVisitor
+visit	mklittlefs/tclap/VersionVisitor.h	/^		void visit() { $/;"	f	class:TCLAP::VersionVisitor
+visit	mklittlefs/tclap/Visitor.h	/^		virtual void visit() { }$/;"	f	class:TCLAP::Visitor
+wear	src/littlefs/bd/lfs_testbd.h	/^    lfs_testbd_wear_t *wear;$/;"	m	struct:lfs_testbd
+wear_buffer	src/littlefs/bd/lfs_testbd.h	/^    void *wear_buffer;$/;"	m	struct:lfs_testbd_config
+what	mklittlefs/tclap/ArgException.h	/^		const char* what() const throw() $/;"	f	class:TCLAP::ArgException
+word_count	test/test_littlefs.c	/^    size_t word_count;$/;"	m	struct:__anon2	file:
+xorAdd	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::xorAdd( Arg& a, Arg& b )$/;"	f	class:TCLAP::CmdLine
+xorAdd	mklittlefs/tclap/CmdLine.h	/^inline void CmdLine::xorAdd( std::vector<Arg*>& ors )$/;"	f	class:TCLAP::CmdLine
+xorSet	mklittlefs/tclap/Arg.h	/^inline void Arg::xorSet()$/;"	f	class:TCLAP::Arg
+~Arg	mklittlefs/tclap/Arg.h	/^inline Arg::~Arg() { }$/;"	f	class:TCLAP::Arg
+~ArgException	mklittlefs/tclap/ArgException.h	/^		virtual ~ArgException() throw() { }$/;"	f	class:TCLAP::ArgException
+~ArgTraits	mklittlefs/tclap/ArgTraits.h	/^	virtual ~ArgTraits() {}$/;"	f	struct:TCLAP::ArgTraits
+~CmdLine	mklittlefs/tclap/CmdLine.h	/^inline CmdLine::~CmdLine()$/;"	f	class:TCLAP::CmdLine
+~CmdLineInterface	mklittlefs/tclap/CmdLineInterface.h	/^		virtual ~CmdLineInterface() {}$/;"	f	class:TCLAP::CmdLineInterface
+~CmdLineOutput	mklittlefs/tclap/CmdLineOutput.h	/^		virtual ~CmdLineOutput() {}$/;"	f	class:TCLAP::CmdLineOutput
+~Constraint	mklittlefs/tclap/Constraint.h	/^		virtual ~Constraint() { ; }$/;"	f	class:TCLAP::Constraint
+~StringLike	mklittlefs/tclap/ArgTraits.h	/^	virtual ~StringLike() {}$/;"	f	struct:TCLAP::StringLike
+~StringLikeTrait	mklittlefs/tclap/ArgTraits.h	/^	virtual ~StringLikeTrait() {}$/;"	f	struct:TCLAP::StringLikeTrait
+~ValueLike	mklittlefs/tclap/ArgTraits.h	/^	virtual ~ValueLike() {}$/;"	f	struct:TCLAP::ValueLike
+~ValueLikeTrait	mklittlefs/tclap/ArgTraits.h	/^	virtual ~ValueLikeTrait() {}$/;"	f	struct:TCLAP::ValueLikeTrait
+~ValuesConstraint	mklittlefs/tclap/ValuesConstraint.h	/^		virtual ~ValuesConstraint() {}$/;"	f	class:TCLAP::ValuesConstraint
+~Visitor	mklittlefs/tclap/Visitor.h	/^		virtual ~Visitor() { }$/;"	f	class:TCLAP::Visitor

@@ -1,0 +1,6 @@
+#ifndef _VERSION_CONFIG_H_
+#define _VERSION_CONFIG_H_
+
+#define FW_VERSION "IRRIGATION_HID_1.0.0-148809-DVT"
+
+#endif // _VERSION_CONFIG_H_

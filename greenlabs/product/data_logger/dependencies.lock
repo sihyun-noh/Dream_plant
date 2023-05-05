@@ -1,0 +1,33 @@
+dependencies:
+  espressif/asio:
+    component_hash: 27069b3f640bb58e2cbceb6bc13dd8f791a2c11b38080543f1858b6104e45b98
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.14.1~3
+  espressif/esp-modbus:
+    component_hash: e099a266bfd3333bf62b6fe8b12b2c9eb9424c6dc3bb98766fd52422ec19ef53
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.10
+  espressif/mdns:
+    component_hash: 57d784cbe88b55b46ec815045153d195aca368a8019bb1eba9b0eb1d7e8f2de8
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.8
+  espressif/usb_host_msc:
+    component_hash: ba8b41b1c42c920e4236483120284e76ea94eb236c1fcc39bb108e30ab7a86f7
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.3
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.0.0
+manifest_hash: 9db43dbcf027281080548a43fc7998512f0896785a40dc0543f4f2acb59a454f
+target: esp32s3
+version: 1.0.0
